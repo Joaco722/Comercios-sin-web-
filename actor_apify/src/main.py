@@ -25,7 +25,7 @@ SCRAPER = "kaix/google-maps-places-scraper"
 async def main() -> None:
     async with Actor:
         cfg = await Actor.get_input() or {}
-        ciudades = cfg.get("ciudades", ["Concordia", "Paraná", "Gualeguaychú", "Concepción del Uruguay"])
+        ciudades = cfg.get("ciudades", ["Concordia", "Paraná"])
         rubros = cfg.get("rubros", list(etl.RUBROS))
         max_por_ciudad = int(cfg.get("maxPorCiudad", 0))
         radio_km = float(cfg.get("radioKm", 8))
@@ -44,6 +44,8 @@ async def main() -> None:
                 "radius": radio_km,
                 "websiteFilter": "all",
             })
+            if run is None or getattr(run, "status", "SUCCEEDED") != "SUCCEEDED":
+                raise RuntimeError(f"Falló la búsqueda en Google Maps para {ciudad}")
             items = (await Actor.apify_client.dataset(run.default_dataset_id).list_items()).items
             crudos.append(etl.extraer(items, ciudad))
 
