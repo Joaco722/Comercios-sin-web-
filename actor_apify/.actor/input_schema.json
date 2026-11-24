@@ -1,0 +1,18 @@
+{
+  "title": "Buscador de comercios sin web",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "ciudades": {"title": "Ciudades", "type": "array", "editor": "stringList",
+      "description": "Ciudades de Entre Ríos donde buscar.",
+      "prefill": ["Concordia", "Paraná", "Gualeguaychú", "Concepción del Uruguay"]},
+    "rubros": {"title": "Rubros", "type": "array", "editor": "stringList",
+      "description": "Términos de búsqueda en Google Maps.",
+      "prefill": ["peluquería", "ferretería", "almacén", "taller mecánico", "panadería", "veterinaria",
+                  "gimnasio", "carnicería", "restaurante", "tienda de ropa", "verdulería", "farmacia"]},
+    "maxPorCiudad": {"title": "Máximo de comercios por ciudad", "type": "integer", "default": 300, "minimum": 1},
+    "radioKm": {"title": "Radio de búsqueda (km)", "type": "integer", "default": 12, "minimum": 1},
+    "validarFilas": {"title": "Validar 700–2000 filas", "type": "boolean", "default": true,
+      "description": "Desactivar para pruebas chicas."}
+  }
+}

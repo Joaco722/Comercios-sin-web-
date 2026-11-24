@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "buscador-comercios-sin-web",
+  "title": "Buscador de comercios sin web (Entre Ríos)",
+  "description": "Busca comercios en Google Maps, aplica el ETL del capstone y devuelve la lista de comercios sin web propia.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "../Dockerfile"
+}

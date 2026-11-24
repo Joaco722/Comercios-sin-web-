@@ -1,0 +1,79 @@
+{
+  "name": "Capstone · 1 Buscar comercios en Google Maps (Apify) → Drive",
+  "metadata": {
+    "version": 1
+  },
+  "flow": [
+    {
+      "id": 1,
+      "module": "apify:runActorNew",
+      "version": 1,
+      "parameters": {
+        "__IMTCONN__": "<conexión Apify>"
+      },
+      "mapper": {
+        "actor_search_type": "user",
+        "actorId": "kaix/google-maps-places-scraper (rpGhsx64IbXMWXhHj)",
+        "runSync": true,
+        "timeout": 300,
+        "input": {
+          "searchTerms": [
+            "peluquería",
+            "ferretería",
+            "almacén",
+            "taller mecánico",
+            "panadería",
+            "veterinaria",
+            "gimnasio",
+            "carnicería",
+            "restaurante",
+            "tienda de ropa",
+            "verdulería",
+            "farmacia"
+          ],
+          "location": "Concordia, Entre Ríos, Argentina",
+          "maxResults": 0,
+          "language": "es",
+          "searchType": "nearby",
+          "radius": 8,
+          "websiteFilter": "all"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "module": "apify:apifyApiCall",
+      "version": 1,
+      "mapper": {
+        "url": "/v2/datasets/{{1.defaultDatasetId}}/items",
+        "method": "GET",
+        "qs": {
+          "format": "json",
+          "clean": "true",
+          "fields": "placeId,title,matchedQuery,primaryTypeDisplayName,city,countryCode,formattedAddress,latitude,longitude,rating,reviewCount,imagesCount,website,phone,isClaimed,businessStatus,hours,googleMapsUri"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "module": "json:TransformToJSON",
+      "version": 1,
+      "mapper": {
+        "object": "{{2.body}}"
+      }
+    },
+    {
+      "id": 4,
+      "module": "google-drive:uploadAFile",
+      "version": 4,
+      "parameters": {
+        "__IMTCONN__": "<conexión Google Drive>"
+      },
+      "mapper": {
+        "folderId": "Capstone/comercios_sin_web/datos",
+        "filename": "maps_concordia_{{formatDate(now; \"YYYYMMDD_HHmm\")}}.json",
+        "data": "{{3.json}}"
+      }
+    }
+  ]
+}
