@@ -27,8 +27,8 @@ async def main() -> None:
         cfg = await Actor.get_input() or {}
         ciudades = cfg.get("ciudades", ["Concordia", "Paraná", "Gualeguaychú", "Concepción del Uruguay"])
         rubros = cfg.get("rubros", list(etl.RUBROS))
-        max_por_ciudad = int(cfg.get("maxPorCiudad", 300))
-        radio_km = float(cfg.get("radioKm", 12))
+        max_por_ciudad = int(cfg.get("maxPorCiudad", 0))
+        radio_km = float(cfg.get("radioKm", 8))
         validar = bool(cfg.get("validarFilas", True))
 
         crudos = []
@@ -37,10 +37,10 @@ async def main() -> None:
             run = await Actor.call(SCRAPER, run_input={
                 "searchTerms": rubros,
                 "location": f"{ciudad}, Entre Ríos, Argentina",
-                "country": "AR",
-                "maxResults": max_por_ciudad,
+                # "nearby" + sin "country": con "area"/"country" el actor recorría todo el país
+                "maxResults": max_por_ciudad,  # 0 = sin tope (≈60 por rubro en modo nearby)
                 "language": "es",
-                "searchType": "area",
+                "searchType": "nearby",
                 "radius": radio_km,
                 "websiteFilter": "all",
             })

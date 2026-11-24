@@ -1,0 +1,259 @@
+<meta name="dash-one-writer">
+<meta name="dash-form" content="dashboard">
+<style>
+.cw { display: grid; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+.cw-title { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; }
+.cw-lead { color: var(--color-fg-muted); margin: 0; }
+.cw-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: var(--cds-gap-md); }
+.cw-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); }
+.cw-card h3, .cw-sec h2 { margin: 0 0 var(--cds-gap-sm); font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); }
+.cw-sec h2 { font-size: var(--cds-font-size-heading); }
+.cw-big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 2rem; font-variant-numeric: tabular-nums; }
+.cw-note { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); margin: var(--cds-gap-xs) 0 0; }
+.cw-grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--cds-gap-md); }
+.cw-grid3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--cds-gap-md); }
+.cw-chart { position: relative; min-height: 240px; }
+.cw-chart svg text { fill: var(--cds-text-secondary); font-size: var(--cds-font-size-caption); }
+.cw-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); box-shadow: var(--cds-shadow-popover); border-radius: var(--cds-radius); padding: 4px 8px; font-size: var(--cds-font-size-caption); white-space: nowrap; }
+.cw-scroll { overflow-x: auto; }
+.cw-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+.cw-table th, .cw-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--color-border-line); }
+.cw-table td.num, .cw-table th.num { text-align: right; }
+.cw-legend { display: flex; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: var(--cds-gap-xs); }
+.cw-sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: middle; }
+</style>
+
+<div class="cw">
+  <header id="titulo">
+    <h1 class="cw-title">Comercios sin web en Concordia y Paraná</h1>
+    <p class="cw-lead">De <b data-draw="n_total" data-source="resumen" data-field="comercios" data-row="0">—</b> comercios relevados en Google Maps, el <b data-draw="pct_sin" data-source="resumen" data-field="pct_sin_web" data-row="0">—</b> no tiene una página web propia. 12 rubros, búsqueda del 24/11/2026.</p>
+  </header>
+
+  <section class="cw-kpis" id="kpis">
+    <div class="cw-card" id="kpi-comercios"><h3>Comercios analizados</h3><div class="cw-big" data-draw="k_total" data-source="resumen" data-field="comercios" data-row="0">—</div><p class="cw-note">Después del ETL (sin duplicados ni lugares fuera de Argentina)</p></div>
+    <div class="cw-card" id="kpi-sinweb"><h3>Sin web propia</h3><div class="cw-big" data-draw="k_pct" data-source="resumen" data-field="pct_sin_web" data-row="0">—</div><p class="cw-note">Sin web, solo redes sociales o plataforma de terceros</p></div>
+    <div class="cw-card" id="kpi-calientes"><h3>Leads calientes</h3><div class="cw-big" data-draw="k_cal" data-source="resumen" data-field="leads_calientes" data-row="0">—</div><p class="cw-note">Sin web propia, con teléfono, rating ≥ 4 y al menos 10 reseñas</p></div>
+    <div class="cw-card" id="kpi-auc"><h3>ROC-AUC del modelo</h3><div class="cw-big" data-draw="k_auc" data-source="modelo" data-field="roc_auc" data-where="modelo=Regresi%C3%B3n%20log%C3%ADstica">—</div><p class="cw-note">Regresión logística, validación cruzada de 5 particiones (línea base: <span data-draw="k_auc_base" data-source="modelo" data-field="roc_auc" data-where="modelo=L%C3%ADnea%20base%20(estratificada)">—</span>)</p></div>
+  </section>
+
+  <section class="cw-sec" id="frecuencias">
+    <h2>Frecuencias: ¿qué rubros no tienen web?</h2>
+    <div class="cw-grid2">
+      <div class="cw-card" id="chart-rubro"><h3>% de comercios sin web propia, por rubro</h3><div class="cw-chart" data-draw="bar_rubro" data-source="por_rubro"></div></div>
+      <div class="cw-card" id="chart-presencia"><h3>Cómo aparecen en Google Maps</h3><div class="cw-chart" data-draw="bar_presencia" data-source="presencia"></div><p class="cw-note">"Solo redes" = el campo web de Maps apunta a Instagram, Facebook o WhatsApp.</p></div>
+    </div>
+  </section>
+
+  <section class="cw-sec" id="distribuciones">
+    <h2>Distribuciones: con web propia vs. sin web propia</h2>
+    <div class="cw-legend"><span><span class="cw-sw" style="background: var(--cds-chart-muted)"></span>Sin web propia</span><span><span class="cw-sw cw-sw-con"></span>Con web propia</span></div>
+    <div class="cw-grid3">
+      <div class="cw-card" id="hist-resenas"><h3>Reseñas (escala log)</h3><div class="cw-chart" data-draw="hist" data-var="n_resenas" data-source="comercios"></div></div>
+      <div class="cw-card" id="hist-rating"><h3>Rating</h3><div class="cw-chart" data-draw="hist" data-var="rating" data-source="comercios"></div></div>
+      <div class="cw-card" id="hist-horas"><h3>Horas de atención por semana</h3><div class="cw-chart" data-draw="hist" data-var="horas_semana" data-source="comercios"></div></div>
+    </div>
+    <p class="cw-note">Cada distribución está normalizada dentro de su grupo, para comparar formas aunque haya muchos más comercios sin web.</p>
+  </section>
+
+  <section class="cw-sec" id="correlaciones">
+    <h2>Correlaciones entre variables numéricas</h2>
+    <div class="cw-card"><div class="cw-chart" data-draw="heat" data-source="correlaciones" style="min-height: 320px"></div><p class="cw-note">Correlación de Spearman. La fila "Tiene web propia" muestra qué variables se mueven con el target.</p></div>
+  </section>
+
+  <section class="cw-sec" id="inferencia">
+    <h2>Pruebas estadísticas</h2>
+    <div class="cw-card cw-scroll">
+      <table class="cw-table" data-source="inferencia" data-row-key="pregunta">
+        <thead><tr><th data-field="pregunta">Pregunta</th><th data-field="prueba">Prueba</th><th class="num" data-field="estadistico">Estadístico</th><th class="num" data-field="p_valor">p-valor</th><th data-field="efecto">Tamaño del efecto</th><th data-field="conclusion">¿Hay diferencia?</th></tr></thead>
+        <tbody data-draw="t_inferencia"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="cw-sec" id="features">
+    <h2>Selección de features</h2>
+    <div class="cw-card cw-scroll">
+      <table class="cw-table" data-source="features" data-row-key="feature">
+        <thead><tr><th data-field="feature">Feature</th><th data-field="tipo">Selección</th><th class="num" data-field="correlacion_puntobiserial">Correlación con el target</th><th class="num" data-field="informacion_mutua">Información mutua</th><th class="num" data-field="importancia_rf">Importancia (Random Forest)</th></tr></thead>
+        <tbody data-draw="t_features"></tbody>
+      </table>
+      <p class="cw-note">Lineales: las 5 con mayor correlación punto-biserial. No lineales: rubro, ciudad, días abiertos y rating, medidas por información mutua e importancia por permutación. Total: 9 features.</p>
+    </div>
+  </section>
+
+  <section class="cw-sec" id="modelo">
+    <h2>Modelo: probabilidad de tener web propia</h2>
+    <div class="cw-card cw-scroll">
+      <table class="cw-table" data-source="modelo" data-row-key="modelo">
+        <thead><tr><th data-field="modelo">Modelo</th><th class="num" data-field="roc_auc">ROC-AUC</th><th class="num" data-field="recall">Recall</th><th class="num" data-field="precision">Precisión</th><th class="num" data-field="f1">F1</th></tr></thead>
+        <tbody data-draw="t_modelo"></tbody>
+      </table>
+      <p class="cw-note">Uso de negocio: entre los comercios sin web, los que el modelo ve parecidos a los que sí tienen web se contactan primero.</p>
+    </div>
+  </section>
+</div>
+
+<script>
+const NUM = (v) => (v === null || v === undefined || v === '' ? NaN : +v);
+dash.calc('resumen', {
+  title: 'Resumen de comercios', description: 'Total de comercios, % sin web propia y leads calientes.',
+  inputs: ['comercios'],
+  fn: (comercios) => {
+    const n = comercios.length;
+    const sin = comercios.filter((r) => NUM(r.tiene_web_propia) === 0).length;
+    const cal = comercios.filter((r) => NUM(r.lead_caliente) === 1).length;
+    return [{ comercios: n, pct_sin_web: n ? Math.round((sin / n) * 1000) / 10 : null, leads_calientes: cal }];
+  },
+});
+dash.calc('por_rubro', {
+  title: '% sin web propia por rubro', description: 'Proporción de comercios sin web propia en cada rubro.',
+  inputs: ['comercios'],
+  fn: (comercios) => {
+    const g = d3.rollups(comercios, (v) => ({ n: v.length, sin: v.filter((r) => NUM(r.tiene_web_propia) === 0).length }), (r) => r.rubro);
+    return g.map(([rubro, o]) => ({ rubro, comercios: o.n, pct_sin_web: Math.round((o.sin / o.n) * 1000) / 10 }))
+      .sort((a, b) => b.pct_sin_web - a.pct_sin_web);
+  },
+});
+dash.calc('presencia', {
+  title: 'Presencia web', description: 'Cantidad de comercios por tipo de presencia web.',
+  inputs: ['comercios'],
+  fn: (comercios) => d3.rollups(comercios, (v) => v.length, (r) => r.presencia)
+    .map(([presencia, comercios]) => ({ presencia, comercios })).sort((a, b) => b.comercios - a.comercios),
+});
+dash.calc('correlaciones', {
+  title: 'Correlaciones (Spearman)', description: 'Correlación de Spearman entre las variables numéricas y el target.',
+  inputs: ['comercios'],
+  fn: (comercios) => {
+    const vars = [['tiene_web_propia', 'Tiene web propia'], ['rating', 'Rating'], ['n_resenas', 'Reseñas'], ['n_fotos', 'Fotos'],
+      ['horas_semana', 'Horas/semana'], ['dias_abiertos', 'Días abiertos'], ['tiene_telefono', 'Teléfono'], ['abre_domingo', 'Domingo']];
+    const rank = (a) => { const idx = a.map((v, i) => [v, i]).sort((x, y) => x[0] - y[0]); const r = new Array(a.length);
+      let i = 0; while (i < idx.length) { let j = i; while (j + 1 < idx.length && idx[j + 1][0] === idx[i][0]) j++;
+        const avg = (i + j) / 2 + 1; for (let k = i; k <= j; k++) r[idx[k][1]] = avg; i = j + 1; } return r; };
+    const cols = Object.fromEntries(vars.map(([k]) => [k, rank(comercios.map((r) => NUM(r[k])))]));
+    const pear = (x, y) => { const mx = d3.mean(x), my = d3.mean(y); let s = 0, sx = 0, sy = 0;
+      for (let i = 0; i < x.length; i++) { const a = x[i] - mx, b = y[i] - my; s += a * b; sx += a * a; sy += b * b; }
+      return sx && sy ? s / Math.sqrt(sx * sy) : 0; };
+    const out = [];
+    for (const [a, la] of vars) for (const [b, lb] of vars) out.push({ var_a: la, var_b: lb, r: Math.round(pear(cols[a], cols[b]) * 100) / 100 });
+    return out;
+  },
+});
+
+const fmt = { int: d3.format(',d'), pct: (v) => (v == null ? '—' : d3.format('.1f')(v).replace('.', ',') + ' %'), dec: (v) => (v == null || v === '' ? '—' : d3.format('.3f')(+v).replace('.', ',')) };
+function scalar(el, id, field, f) {
+  const d = dash.data(id);
+  if (d.status !== 'ok' || !d.data.length) { el.textContent = '—'; return; }
+  el.textContent = f(d.data[0][field]);
+}
+dash.draw('n_total', (el) => scalar(el, 'resumen', 'comercios', fmt.int));
+dash.draw('k_total', (el) => scalar(el, 'resumen', 'comercios', fmt.int));
+dash.draw('pct_sin', (el) => scalar(el, 'resumen', 'pct_sin_web', fmt.pct));
+dash.draw('k_pct', (el) => scalar(el, 'resumen', 'pct_sin_web', fmt.pct));
+dash.draw('k_cal', (el) => scalar(el, 'resumen', 'leads_calientes', fmt.int));
+function modelVal(el, nombre) {
+  const d = dash.data('modelo');
+  const r = d.status === 'ok' ? d.data.find((x) => x.modelo === nombre) : null;
+  el.textContent = r ? fmt.dec(r.roc_auc) : '—';
+}
+dash.draw('k_auc', (el) => modelVal(el, 'Regresión logística'));
+dash.draw('k_auc_base', (el) => modelVal(el, 'Línea base (estratificada)'));
+
+function tip(el) { let t = el.querySelector('.cw-tip'); if (!t) { t = document.createElement('div'); t.className = 'cw-tip'; t.hidden = true; el.appendChild(t); } return t; }
+function msg(el, d) { el.replaceChildren(); const p = document.createElement('p'); p.className = 'cw-note';
+  p.textContent = d.status === 'error' ? 'No se pudieron cargar los datos de este gráfico.' : (d.status === 'loading' ? 'Cargando…' : '—'); el.appendChild(p); }
+
+function hbar(el, id, label, value, fmtv, color) {
+  const d = dash.data(id);
+  if (d.status !== 'ok') return msg(el, d);
+  el.replaceChildren();
+  const rows = d.data, w = el.clientWidth || 320, bh = 22, m = { t: 4, r: 56, b: 4, l: 8 };
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', rows.length * bh + m.t + m.b).attr('role', 'img')
+    .attr('aria-label', 'Gráfico de barras horizontales');
+  const lab = svg.append('g');
+  lab.selectAll('text').data(rows).join('text').attr('x', m.l).attr('y', (r, i) => m.t + i * bh + bh / 2 + 4).text((r) => r[label]);
+  const lw = d3.max(lab.selectAll('text').nodes(), (n) => n.getComputedTextLength()) || 80;
+  const x0 = m.l + lw + 8, x = d3.scaleLinear().domain([0, d3.max(rows, (r) => +r[value]) || 1]).range([0, Math.max(40, w - x0 - m.r)]);
+  const t = tip(el);
+  svg.append('g').selectAll('rect').data(rows).join('rect').attr('x', x0).attr('y', (r, i) => m.t + i * bh + 4).attr('height', bh - 8)
+    .attr('width', (r) => x(+r[value])).attr('rx', 2).style('fill', color)
+    .on('pointermove', (ev, r) => { const [px, py] = d3.pointer(ev, el); t.hidden = false; t.textContent = `${r[label]}: ${fmtv(+r[value])}`;
+      t.style.left = Math.min(px + 10, el.clientWidth - t.offsetWidth) + 'px'; t.style.top = py - 28 + 'px'; })
+    .on('pointerleave', () => { t.hidden = true; });
+  svg.append('g').selectAll('text').data(rows).join('text').attr('x', (r) => x0 + x(+r[value]) + 4).attr('y', (r, i) => m.t + i * bh + bh / 2 + 4)
+    .text((r) => fmtv(+r[value]));
+  el.appendChild(t);
+}
+dash.draw('bar_rubro', (el) => hbar(el, 'por_rubro', 'rubro', 'pct_sin_web', fmt.pct, dash.colors[0]));
+dash.draw('bar_presencia', (el) => hbar(el, 'presencia', 'presencia', 'comercios', fmt.int, dash.colors[1] || dash.colors[0]));
+
+for (const sw of document.querySelectorAll('.cw-sw-con')) sw.style.background = dash.colors[0];
+
+dash.draw('hist', (el) => {
+  const d = dash.data('comercios');
+  if (d.status !== 'ok') return msg(el, d);
+  el.replaceChildren();
+  const v = el.getAttribute('data-var'), log = v === 'n_resenas';
+  const val = (r) => (log ? Math.log10(1 + NUM(r[v])) : NUM(r[v]));
+  const rows = d.data.filter((r) => !isNaN(val(r)));
+  const w = el.clientWidth || 260, h = 210, m = { t: 8, r: 8, b: 28, l: 32 };
+  const x = d3.scaleLinear().domain(d3.extent(rows, val)).nice().range([m.l, w - m.r]);
+  const bins = d3.bin().domain(x.domain()).thresholds(x.ticks(18));
+  const grupos = [0, 1].map((g) => { const vs = rows.filter((r) => NUM(r.tiene_web_propia) === g).map(val);
+    return bins(vs).map((b) => ({ x0: b.x0, x1: b.x1, p: vs.length ? b.length / vs.length : 0, g })); });
+  const y = d3.scaleLinear().domain([0, d3.max(grupos.flat(), (b) => b.p) || 1]).nice().range([h - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', h).attr('role', 'img')
+    .attr('aria-label', `Distribución de ${v} según tenga o no web propia`);
+  svg.append('g').attr('transform', `translate(0,${h - m.b})`).call(d3.axisBottom(x).ticks(Math.max(3, Math.floor(w / 70)))
+    .tickFormat((t) => (log ? d3.format('~s')(Math.round(10 ** t - 1)) : d3.format('~g')(t))));
+  svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d3.format('.0%')));
+  const t = tip(el);
+  grupos.forEach((bs, gi) => svg.append('g').selectAll('rect').data(bs).join('rect')
+    .attr('x', (b) => x(b.x0) + 1).attr('width', (b) => Math.max(0, x(b.x1) - x(b.x0) - 1)).attr('y', (b) => y(b.p)).attr('height', (b) => y(0) - y(b.p))
+    .style('fill', gi ? dash.colors[0] : 'var(--cds-chart-muted)').style('opacity', gi ? 0.75 : 0.9)
+    .on('pointermove', (ev, b) => { const [px, py] = d3.pointer(ev, el); t.hidden = false;
+      const a = log ? Math.round(10 ** b.x0 - 1) : b.x0, z = log ? Math.round(10 ** b.x1 - 1) : b.x1;
+      t.textContent = `${b.g ? 'Con web' : 'Sin web'} · ${a}–${z}: ${d3.format('.1%')(b.p)}`;
+      t.style.left = Math.min(px + 10, el.clientWidth - t.offsetWidth) + 'px'; t.style.top = py - 28 + 'px'; })
+    .on('pointerleave', () => { t.hidden = true; }));
+  el.appendChild(t);
+});
+
+dash.draw('heat', (el) => {
+  const d = dash.data('correlaciones');
+  if (d.status !== 'ok' || !d.data) return msg(el, d);
+  el.replaceChildren();
+  const rows = d.data, vars = [...new Set(rows.map((r) => r.var_a))];
+  const w = el.clientWidth || 320, lw = 110, cell = Math.max(24, Math.min(56, (w - lw) / vars.length)), h = lw * 0.6 + cell * vars.length;
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('height', h + 4).attr('role', 'img').attr('aria-label', 'Mapa de calor de correlaciones');
+  const c = d3.scaleDiverging(d3.interpolateRdBu).domain([1, 0, -1]);
+  const x = (v) => lw + vars.indexOf(v) * cell, y = (v) => lw * 0.6 + vars.indexOf(v) * cell;
+  const t = tip(el);
+  svg.append('g').selectAll('rect').data(rows).join('rect').attr('x', (r) => x(r.var_b)).attr('y', (r) => y(r.var_a))
+    .attr('width', cell - 2).attr('height', cell - 2).style('fill', (r) => c(r.r))
+    .on('pointermove', (ev, r) => { const [px, py] = d3.pointer(ev, el); t.hidden = false; t.textContent = `${r.var_a} × ${r.var_b}: ${String(r.r).replace('.', ',')}`;
+      t.style.left = Math.min(px + 10, el.clientWidth - t.offsetWidth) + 'px'; t.style.top = py - 28 + 'px'; })
+    .on('pointerleave', () => { t.hidden = true; });
+  if (cell >= 34) svg.append('g').selectAll('text').data(rows).join('text').attr('x', (r) => x(r.var_b) + cell / 2 - 1).attr('y', (r) => y(r.var_a) + cell / 2 + 3)
+    .attr('text-anchor', 'middle').style('fill', (r) => (Math.abs(r.r) > 0.5 ? '#fff' : '#333')).text((r) => String(r.r).replace('.', ','));
+  svg.append('g').selectAll('text').data(vars).join('text').attr('x', lw - 6).attr('y', (v) => y(v) + cell / 2 + 3).attr('text-anchor', 'end').text((v) => v);
+  svg.append('g').selectAll('text').data(vars).join('text').attr('transform', (v) => `translate(${x(v) + cell / 2},${lw * 0.6 - 6}) rotate(-35)`).text((v) => v);
+  el.appendChild(t);
+});
+
+function tabla(el, id, cols) {
+  const d = dash.data(id);
+  el.replaceChildren();
+  if (d.status !== 'ok') { const tr = document.createElement('tr'); const td = document.createElement('td'); td.colSpan = cols.length;
+    td.textContent = d.status === 'error' ? 'No se pudieron cargar los datos.' : '—'; tr.appendChild(td); el.appendChild(tr); return; }
+  for (const r of d.data) {
+    const tr = document.createElement('tr');
+    for (const [k, f, cls] of cols) { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = f ? f(r[k]) : (r[k] ?? '—'); tr.appendChild(td); }
+    el.appendChild(tr);
+  }
+}
+const pv = (v) => (v == null ? '—' : +v < 0.001 ? '< 0,001' : d3.format('.3f')(+v).replace('.', ','));
+const num1 = (v) => (v == null ? '—' : d3.format('.1f')(+v).replace('.', ','));
+dash.draw('t_inferencia', (el) => tabla(el, 'inferencia', [['pregunta'], ['prueba'], ['estadistico', num1, 'num'], ['p_valor', pv, 'num'], ['efecto'], ['conclusion']]));
+dash.draw('t_features', (el) => tabla(el, 'features', [['feature'], ['tipo'], ['correlacion_puntobiserial', fmt.dec, 'num'], ['informacion_mutua', fmt.dec, 'num'], ['importancia_rf', fmt.dec, 'num']]));
+dash.draw('t_modelo', (el) => tabla(el, 'modelo', [['modelo'], ['roc_auc', fmt.dec, 'num'], ['recall', fmt.dec, 'num'], ['precision', fmt.dec, 'num'], ['f1', fmt.dec, 'num']]));
+</script>

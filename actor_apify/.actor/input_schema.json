@@ -10,8 +10,8 @@
       "description": "Términos de búsqueda en Google Maps.",
       "prefill": ["peluquería", "ferretería", "almacén", "taller mecánico", "panadería", "veterinaria",
                   "gimnasio", "carnicería", "restaurante", "tienda de ropa", "verdulería", "farmacia"]},
-    "maxPorCiudad": {"title": "Máximo de comercios por ciudad", "type": "integer", "default": 300, "minimum": 1},
-    "radioKm": {"title": "Radio de búsqueda (km)", "type": "integer", "default": 12, "minimum": 1},
+    "maxPorCiudad": {"title": "Máximo de comercios por ciudad", "type": "integer", "default": 0, "minimum": 0, "description": "0 = sin tope (≈60 por rubro)"},
+    "radioKm": {"title": "Radio de búsqueda (km)", "type": "integer", "default": 8, "minimum": 1},
     "validarFilas": {"title": "Validar 700–2000 filas", "type": "boolean", "default": true,
       "description": "Desactivar para pruebas chicas."}
   }
