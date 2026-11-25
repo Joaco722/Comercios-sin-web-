@@ -38,19 +38,23 @@
       "type": "integer",
       "default": 0,
       "minimum": 0,
-      "description": "0 = sin tope (≈60 por rubro)"
+      "description": "Tope de comercios por ciudad. 0 = sin tope (≈60 por rubro).",
+      "editor": "number"
     },
     "radioKm": {
       "title": "Radio de búsqueda (km)",
       "type": "integer",
       "default": 8,
-      "minimum": 1
+      "minimum": 1,
+      "description": "Radio de búsqueda alrededor del centro de cada ciudad, en km.",
+      "editor": "number"
     },
     "validarFilas": {
       "title": "Validar 700–2000 filas",
       "type": "boolean",
       "default": true,
-      "description": "Desactivar para pruebas chicas."
+      "description": "Exige entre 700 y 2.000 filas en la tabla final. Desactivar para pruebas chicas.",
+      "editor": "checkbox"
     }
   }
 }
