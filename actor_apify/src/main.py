@@ -46,7 +46,7 @@ async def main() -> None:
                 "radius": radio_km,
                 "websiteFilter": "all",
             })
-            if run is None or getattr(run, "status", "SUCCEEDED") != "SUCCEEDED":
+            if run is None or not str(getattr(run, "status", "SUCCEEDED")).upper().endswith("SUCCEEDED"):
                 raise RuntimeError(f"Falló la búsqueda en Google Maps para {ciudad}")
             items = (await Actor.apify_client.dataset(run.default_dataset_id).list_items()).items
             crudos.append(etl.extraer(items, ciudad))
