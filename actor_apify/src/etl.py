@@ -262,6 +262,7 @@ def leads(limpio: pd.DataFrame) -> pd.DataFrame:
     """
     cols = ["nombre", "rubro", "ciudad", "presencia", "web", "telefono", "rating",
             "n_resenas", "lead_caliente", "direccion", "url_maps"]
+    cols += [c for c in ["prob_web"] if c in limpio.columns]
     return (limpio[limpio["es_lead"] == 1][cols]
             .sort_values(["lead_caliente", "n_resenas", "rating"], ascending=False)
             .reset_index(drop=True))

@@ -47,10 +47,10 @@ capstone-leads/
 - **Modo de búsqueda:** `nearby`, hasta unos 60 resultados por rubro y ciudad.
   - No usar el campo `country`: hace que se busque en todo el país (nos pasó en la primera prueba).
   - Con el modo `area` y un tope de resultados, el Actor llena el tope con el primer rubro de la lista.
-- **Actor propio (`actor_apify/`):** recibe ciudades y rubros, llama al scraper, aplica el ETL y devuelve:
-  - en el dataset, los leads ordenados;
-  - en el key-value store: `TABLA_FINAL`, `LIMPIO`, `DESCARTES` y `EDA`.
-- **Cómo publicarlo:** `cd actor_apify && apify login && apify push`.
+- **Actor propio (`actor_apify/`):** recibe ciudades y rubros, llama al scraper, aplica el ETL, entrena el modelo y devuelve:
+  - en el dataset, la **inferencia**: los leads con `prob_web` (probabilidad de tener web propia) y `prioridad` (alta / media / baja), ordenados para contactar;
+  - en el key-value store: `TABLA_FINAL`, `LIMPIO`, `DESCARTES`, `EDA` y `METRICAS_MODELO`.
+- **Cómo publicarlo:** en Apify Console, crear un Actor desde este repositorio de Git con la carpeta `actor_apify` (URL `https://github.com/Joaco722/Comercios-sin-web-.git#main:actor_apify`), o desde la terminal: `cd actor_apify && apify login && apify push`.
 
 ## 4. Funciones del ETL
 
@@ -64,6 +64,9 @@ capstone-leads/
 | `tabla_final()` | Limpio | 10 columnas numéricas sin nulos | Imputa con la mediana del rubro |
 | `validar()` | Tabla final | — (assert) | Exige 700–2.000 filas, como máximo 10 columnas, rangos válidos y target binario |
 | `leads()` | Limpio | Lista de comercios para contactar | Filtra los que no tienen web propia y ordena por lead caliente, reseñas y rating |
+| `modelo.preparar_X()` | Tabla final | Matriz de features | Quita el target, log(1 + reseñas) y dummies de rubro y ciudad |
+| `modelo.puntuar()` | Tabla final | (prob_web por comercio, métricas) | Regresión logística balanceada con validación cruzada estratificada de 5 particiones |
+| `modelo.priorizar()` | Leads con prob_web | Leads con prioridad, ordenados | Tercios de probabilidad: alta / media / baja |
 
 **Embudo:** 1.415 lugares → 83 descartados por estar en Salto (Uruguay) → **1.332 comercios**.
 

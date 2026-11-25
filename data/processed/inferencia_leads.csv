@@ -1,0 +1,1130 @@
+ranking,nombre,rubro,ciudad,presencia,rating,n_resenas,lead_caliente,prob_web,prioridad
+1,Farmacia Y Perfumeria Mayo,farmacia,concordia,sin_web,4.8,363,1,0.951,alta
+2,Farmacia Masvernat,farmacia,concordia,sin_web,4.9,30,1,0.943,alta
+3,Rock en las Venas,tienda de ropa,concordia,solo_redes,4.9,974,1,0.938,alta
+4,Farmacia Virgen del Valle,farmacia,concordia,sin_web,4.9,50,1,0.928,alta
+5,La Entrerriana Farmacia & Perfumería,farmacia,concordia,sin_web,4.9,14,1,0.919,alta
+6,Farmacia Soc. Sindicato Luz y Fuerza de Paraná Entre Ríos,farmacia,parana,solo_redes,4.3,41,1,0.919,alta
+7,BALBI,tienda de ropa,parana,solo_redes,4.1,1962,1,0.917,alta
+8,Farmacia Soc. Sindicato Luz y Fuerza de Paraná Entre Ríos,farmacia,parana,solo_redes,4.0,29,1,0.907,alta
+9,Farmacia Thompson,farmacia,parana,solo_redes,4.6,68,1,0.905,alta
+10,Farmacia Catedral I,farmacia,parana,sin_web,4.1,95,1,0.902,alta
+11,Casa Hidalgo,tienda de ropa,concordia,sin_web,4.4,49,1,0.894,alta
+12,Farmacia Pasteur,farmacia,concordia,sin_web,4.7,43,1,0.89,alta
+13,Lapan,restaurante,parana,solo_redes,4.5,4675,1,0.888,alta
+14,Páprika Almacén Natural,almacen,concordia,solo_redes,4.5,312,1,0.885,alta
+15,Farmacia Facundo,farmacia,concordia,solo_redes,4.6,29,1,0.881,alta
+16,Farmacia del Parque,farmacia,concordia,sin_web,4.9,10,1,0.879,alta
+17,Farmacia Mayo Norte (dentro de Carrefour),farmacia,concordia,sin_web,4.8,50,1,0.878,alta
+18,Farmacia Nuñez-Robles,farmacia,concordia,solo_redes,4.6,15,1,0.877,alta
+19,FARMACIA EL SOL,farmacia,concordia,sin_web,4.9,20,1,0.875,alta
+20,Farmacia del Pueblo,farmacia,parana,solo_redes,4.1,20,1,0.874,alta
+21,Farmacia San Mateo,farmacia,concordia,sin_web,4.4,34,1,0.871,alta
+22,Bar Maipú,restaurante,parana,sin_web,4.4,3350,1,0.869,alta
+23,Farmacia Acevedo,farmacia,concordia,sin_web,4.6,27,1,0.867,alta
+24,FARMACIA Y PERFUMERIA LA BIANCA - CONCORDIA - PAGO FACIL,farmacia,concordia,solo_redes,4.5,39,1,0.863,alta
+25,Pescadería Concordia,restaurante,concordia,solo_redes,4.5,658,1,0.861,alta
+26,Farmacia Churruarin,farmacia,parana,sin_web,4.2,27,1,0.859,alta
+27,Farmacia Villaguay,farmacia,parana,sin_web,4.9,27,1,0.858,alta
+28,Supermercado El Pobre Negro,almacen,concordia,sin_web,4.0,118,1,0.855,alta
+29,La Casona,restaurante,concordia,sin_web,4.5,1320,1,0.853,alta
+30,Quiero Verte Bonita,tienda de ropa,concordia,sin_web,4.9,107,1,0.851,alta
+31,Chez Le Sac,tienda de ropa,parana,sin_web,4.9,219,1,0.847,alta
+32,Farmacia Libertad,farmacia,parana,sin_web,4.7,27,1,0.846,alta
+33,Cristobal Cafe Concordia,restaurante,concordia,plataforma_terceros,4.1,3368,1,0.84,alta
+34,Garrote,restaurante,parana,sin_web,4.6,1650,1,0.839,alta
+35,Farmacia Las Heras,farmacia,concordia,sin_web,4.4,12,1,0.839,alta
+36,Aconcagua Concordia,tienda de ropa,concordia,solo_redes,4.5,41,1,0.838,alta
+37,Supermercado El Mundo,almacen,parana,sin_web,4.4,1073,1,0.836,alta
+38,Cadiz La Granja,restaurante,parana,sin_web,4.2,831,1,0.833,alta
+39,Ferreteria Kikan,ferreteria,parana,sin_web,4.8,772,1,0.829,alta
+40,FARMACIA Trossero,farmacia,parana,sin_web,4.7,36,1,0.829,alta
+41,Almacen de los 33,almacen,parana,sin_web,4.4,216,1,0.825,alta
+42,Panza Verde almacén Vegetariano,almacen,parana,solo_redes,4.4,126,1,0.823,alta
+43,Flamingo,restaurante,parana,solo_redes,4.3,2217,1,0.822,alta
+44,Bar Ideal,restaurante,concordia,solo_redes,4.1,2690,1,0.815,alta
+45,Farmacia Pesce,farmacia,concordia,sin_web,4.6,12,1,0.814,alta
+46,La Tasca Almacén Gourmet,almacen,parana,sin_web,4.7,147,1,0.813,alta
+47,El Ciervo Restaurante,restaurante,concordia,sin_web,4.3,1718,1,0.81,alta
+48,Farmacia Mariani,farmacia,concordia,sin_web,4.4,49,1,0.808,alta
+49,Mariana Reatto,tienda de ropa,concordia,sin_web,4.7,54,1,0.807,alta
+50,club russo,restaurante,concordia,sin_web,4.5,208,1,0.807,alta
+51,Farmacia Avenida,farmacia,concordia,solo_redes,4.2,21,1,0.807,alta
+52,VITELLO Almacen de Carnes,almacen,concordia,sin_web,4.6,146,1,0.807,alta
+53,La Posta Resto,restaurante,concordia,solo_redes,4.0,990,1,0.805,alta
+54,SWAT,tienda de ropa,concordia,sin_web,4.4,22,1,0.803,alta
+55,Camiseta Sport Paraná,tienda de ropa,parana,sin_web,4.5,170,1,0.799,alta
+56,UOMO LIBRE,tienda de ropa,parana,sin_web,4.6,61,1,0.798,alta
+57,El Reloj del centro,restaurante,concordia,solo_redes,4.4,2095,1,0.797,alta
+58,LA POLLERIA OFICIAL,almacen,concordia,sin_web,4.7,25,1,0.797,alta
+59,Cheeky Concordia,tienda de ropa,concordia,sin_web,4.2,125,1,0.795,alta
+60,El Estribo Restobar,restaurante,parana,sin_web,4.2,3250,1,0.794,alta
+61,"Parrilla ""El Gordo""",restaurante,concordia,solo_redes,4.5,2665,1,0.792,alta
+62,Azul veterinaria 24hs - Urgencias Veterinarias,veterinaria,parana,sin_web,4.4,459,1,0.789,alta
+63,El Barcito Resto,restaurante,concordia,solo_redes,4.0,1737,1,0.787,alta
+64,"Ferreteria ""El Aguila""",ferreteria,parana,sin_web,4.6,196,1,0.786,alta
+65,Adalgisa,tienda de ropa,concordia,plataforma_terceros,4.6,22,1,0.785,alta
+66,Quetzal,tienda de ropa,parana,plataforma_terceros,4.4,58,1,0.783,alta
+67,"Sabor a Casa, Rotisería y Bodegón",restaurante,concordia,sin_web,4.6,75,1,0.783,alta
+68,La Tienda,tienda de ropa,parana,sin_web,4.5,189,1,0.782,alta
+69,Farmacia Don Bosco,farmacia,parana,solo_redes,4.7,11,1,0.78,alta
+70,Pluto Vet & Pets,veterinaria,concordia,sin_web,4.7,330,1,0.777,alta
+71,Gomeria,ferreteria,concordia,sin_web,4.8,61,1,0.774,alta
+72,La Abuela,restaurante,parana,solo_redes,4.3,1021,1,0.77,alta
+73,Club 55,tienda de ropa,parana,sin_web,4.6,31,1,0.77,alta
+74,HOREB,tienda de ropa,parana,sin_web,4.9,67,1,0.769,alta
+75,El Baron indumentaria,tienda de ropa,concordia,plataforma_terceros,4.8,19,1,0.768,alta
+76,LESAGE,tienda de ropa,parana,sin_web,4.9,52,1,0.767,alta
+77,Farmacia Entre Rios,farmacia,parana,solo_redes,4.6,11,1,0.766,alta
+78,Veterinaria Alberto,veterinaria,parana,solo_redes,4.8,657,1,0.765,alta
+79,Toscana,tienda de ropa,concordia,solo_redes,4.9,52,1,0.764,alta
+80,SHAY CASA DE TÉ,restaurante,parana,sin_web,4.1,1401,1,0.763,alta
+81,Tier Clinic,veterinaria,parana,plataforma_terceros,4.7,473,1,0.76,alta
+82,Ocamiño taperia-taberna,restaurante,concordia,solo_redes,4.8,191,1,0.76,alta
+83,Costa Azul,restaurante,parana,sin_web,4.0,1555,1,0.755,alta
+84,Ristorante Giovani,restaurante,parana,sin_web,4.2,2001,1,0.754,alta
+85,Ferreteria BC,ferreteria,parana,sin_web,4.7,137,1,0.751,alta
+86,Lapan Almacén,almacen,parana,solo_redes,4.0,25,1,0.748,alta
+87,Veterinaria nueva vida,veterinaria,concordia,sin_web,5.0,52,1,0.748,alta
+88,Patas flambeadas,restaurante,concordia,sin_web,4.5,15,1,0.747,alta
+89,Los Aromos Clínica Veterinaria,veterinaria,concordia,sin_web,4.7,197,1,0.744,alta
+90,Supermercado El Hormiguero,almacen,concordia,sin_web,4.5,72,1,0.744,alta
+91,Boutique Maria B',tienda de ropa,parana,sin_web,4.8,86,1,0.742,alta
+92,Ohanna Showroom,tienda de ropa,concordia,solo_redes,4.9,16,1,0.741,alta
+93,Mykonos Boutique,tienda de ropa,parana,sin_web,4.7,33,1,0.739,alta
+94,FARMACIA MATER,farmacia,parana,solo_redes,4.2,15,1,0.738,alta
+95,El Bosquecito,restaurante,concordia,solo_redes,4.6,847,1,0.734,alta
+96,Muñoz Ferretería,ferreteria,concordia,sin_web,4.7,58,1,0.734,alta
+97,Palmetto's,tienda de ropa,parana,sin_web,4.1,154,1,0.733,alta
+98,El Palacio del Boton - Merceria-Lenceria-Indumentaria,tienda de ropa,parana,sin_web,4.5,34,1,0.73,alta
+99,Almacén Multirubro km 243,almacen,concordia,sin_web,4.8,12,1,0.729,alta
+100,Veterinaria Asís,veterinaria,parana,sin_web,4.8,232,1,0.729,alta
+101,Veterinaria Salta Violeta,veterinaria,parana,sin_web,4.8,367,1,0.728,alta
+102,Dahos,restaurante,concordia,solo_redes,4.1,244,1,0.726,alta
+103,Clinica Veterinaria Migueles,veterinaria,parana,sin_web,4.6,378,1,0.726,alta
+104,Clinica Veterinaria Avenida,veterinaria,parana,sin_web,4.7,389,1,0.726,alta
+105,Centro Veterinario San Antonio,veterinaria,concordia,sin_web,4.5,182,1,0.721,alta
+106,ALMACEN DE MASCOTAS - ENVIOS,almacen,parana,solo_redes,4.7,111,1,0.72,alta
+107,Veterinaria Ganesa,veterinaria,parana,sin_web,4.7,543,1,0.72,alta
+108,El Almacén de Bajada,almacen,parana,sin_web,4.9,23,1,0.72,alta
+109,"Ferretería ""Ferremax""",ferreteria,concordia,solo_redes,4.4,58,1,0.72,alta
+110,Ferretería Rondeau,ferreteria,parana,solo_redes,4.4,99,1,0.719,alta
+111,Snoopy,veterinaria,concordia,sin_web,4.7,322,1,0.719,alta
+112,La Ranchada Comedor de pescado,restaurante,parana,sin_web,4.8,338,1,0.718,alta
+113,AM Tienda de Ropa,tienda de ropa,concordia,plataforma_terceros,5.0,11,1,0.715,alta
+114,Andorra Jeans,tienda de ropa,parana,sin_web,4.9,22,1,0.714,alta
+115,Bulonera El Toro,ferreteria,concordia,sin_web,4.8,46,1,0.71,alta
+116,"Almacén para el asado ""Chano María""",almacen,parana,sin_web,4.6,55,1,0.71,alta
+117,Veterinaria Mestizos,veterinaria,parana,solo_redes,4.7,248,1,0.709,alta
+118,PUNTA TOMBO Indumentaria,tienda de ropa,parana,sin_web,4.7,18,1,0.706,alta
+119,Le Patri Clothes,tienda de ropa,parana,solo_redes,4.8,46,1,0.704,alta
+120,La Zona Parrilla,restaurante,parana,solo_redes,4.3,2060,1,0.697,alta
+121,Adriana M. Acebal,veterinaria,parana,sin_web,4.9,303,1,0.696,alta
+122,Ferretodo Construcción,ferreteria,concordia,sin_web,4.4,98,1,0.695,alta
+123,Ferretería Zanni Industrial,ferreteria,parana,sin_web,4.7,167,1,0.694,alta
+124,El Almacen De Graciela,almacen,concordia,sin_web,4.8,26,1,0.692,alta
+125,Las Flores Bodegón,restaurante,parana,solo_redes,4.3,493,1,0.692,alta
+126,Río Nuevo Café Bar,restaurante,parana,sin_web,4.7,626,1,0.688,alta
+127,El Bodegón de la Esquina,almacen,parana,sin_web,4.3,352,1,0.688,alta
+128,Almamia,tienda de ropa,parana,sin_web,4.7,13,1,0.683,alta
+129,Ferretería Zanni Tradicional,ferreteria,parana,sin_web,4.6,45,1,0.683,alta
+130,Almacen de Suelas Gonzalez,almacen,concordia,sin_web,4.8,15,1,0.681,alta
+131,La Roca Gimnasio,gimnasio,concordia,solo_redes,4.8,103,1,0.68,alta
+132,Amores Perros,veterinaria,parana,sin_web,4.8,158,1,0.679,alta
+133,Club Cervantes,restaurante,parana,sin_web,4.4,144,1,0.679,alta
+134,SERINVET Clínica Veterinaria,veterinaria,concordia,sin_web,4.8,87,1,0.677,alta
+135,Comedor Guri Costero,restaurante,parana,sin_web,4.7,542,1,0.676,alta
+136,Diatravet (Diagnóstico y Tratamiento Veterinario),veterinaria,concordia,solo_redes,4.7,100,1,0.673,alta
+137,CRAFT,restaurante,concordia,solo_redes,4.3,106,1,0.67,alta
+138,Ferreteria Hipodromo,ferreteria,parana,solo_redes,4.5,58,1,0.665,alta
+139,Luggio Boutique,tienda de ropa,concordia,sin_web,4.9,11,1,0.664,alta
+140,Taller Electromecánico.,taller mecanico,concordia,sin_web,5.0,19,1,0.663,alta
+141,La Bartola,restaurante,parana,solo_redes,4.3,949,1,0.659,alta
+142,UCIvet - Paraná,veterinaria,parana,sin_web,4.9,55,1,0.656,alta
+143,Salud Animal,veterinaria,parana,sin_web,4.6,262,1,0.656,alta
+144,Veterinaria huellitas,veterinaria,parana,sin_web,4.5,190,1,0.655,alta
+145,Alas Veterinaria,veterinaria,parana,solo_redes,4.6,166,1,0.653,alta
+146,Gusnaik comida de bodegón,restaurante,concordia,solo_redes,4.0,336,1,0.652,alta
+147,Wappa Indumentaria Femenia,tienda de ropa,concordia,sin_web,4.4,18,1,0.65,alta
+148,Ferreteria Austral,ferreteria,parana,solo_redes,4.4,132,1,0.646,alta
+149,Ferreteria El Abuelo,ferreteria,parana,sin_web,4.5,39,1,0.646,alta
+150,Centro Veterinario Concordia,veterinaria,concordia,sin_web,4.7,107,1,0.646,alta
+151,La masa alta,restaurante,concordia,solo_redes,4.8,80,1,0.645,alta
+152,Ferreteria Catelotti,ferreteria,concordia,sin_web,4.3,74,1,0.645,alta
+153,Veterinaria AliVet Paraná,veterinaria,parana,sin_web,4.3,176,1,0.644,alta
+154,Lubricentro los tres hermanos local tres,ferreteria,concordia,sin_web,4.6,11,1,0.642,alta
+155,FERREMAS,ferreteria,concordia,sin_web,4.2,23,1,0.642,alta
+156,Veterinaria Pluto,veterinaria,concordia,sin_web,4.7,149,1,0.641,alta
+157,Veterinaria San Roque,veterinaria,parana,sin_web,4.5,134,1,0.639,alta
+158,Ferretería Pedrin,ferreteria,parana,sin_web,4.5,159,1,0.638,alta
+159,Club House,tienda de ropa,parana,sin_web,4.2,13,1,0.636,alta
+160,Parrilla Saavedra,restaurante,concordia,sin_web,4.4,114,1,0.636,alta
+161,Veterinaria Argentina Guillermo Cura,veterinaria,parana,sin_web,4.6,218,1,0.634,alta
+162,Clinica Veterinaria Puppy Shop,veterinaria,concordia,sin_web,4.8,106,1,0.634,alta
+163,Panadería La Internacional,panaderia,concordia,solo_redes,4.2,731,1,0.634,alta
+164,EL BRASERO PARRILLA-RESTO,restaurante,concordia,sin_web,4.2,292,1,0.633,alta
+165,Mes Amies,restaurante,parana,solo_redes,4.3,206,1,0.631,alta
+166,FERRECAM ferreteria,ferreteria,parana,sin_web,4.7,93,1,0.629,alta
+167,Gimnasio Buena Vida,gimnasio,parana,sin_web,4.8,188,1,0.628,alta
+168,Veterinaria San Francisco,veterinaria,concordia,sin_web,4.7,59,1,0.627,alta
+169,Peluqueria & Barber Shop Felix Estilista,peluqueria,parana,solo_redes,4.8,433,1,0.625,alta
+170,Rg Veterinaria,veterinaria,concordia,sin_web,4.5,59,1,0.625,alta
+171,Mariani,restaurante,concordia,sin_web,4.5,604,1,0.625,alta
+172,Focus Gym,gimnasio,parana,solo_redes,4.9,113,1,0.624,alta
+173,Oxigeno - Actividades Físicas & Spa (sede La Paz),gimnasio,parana,sin_web,4.4,237,1,0.622,alta
+174,Veterinaria Amores Perros 2,veterinaria,parana,solo_redes,4.8,78,1,0.621,alta
+175,VETERINARIA DR GUSTAVO GREGORUTTI,veterinaria,parana,solo_redes,4.6,107,1,0.62,alta
+176,Emanuel Chifa,restaurante,parana,solo_redes,4.7,53,1,0.619,alta
+177,Saporittis Gas,ferreteria,concordia,sin_web,4.5,103,1,0.616,alta
+178,By Lola · Restobar & Beer,restaurante,concordia,solo_redes,4.3,432,1,0.615,alta
+179,MAURO SERGIO & LILIO BOUTIQUE,tienda de ropa,concordia,sin_web,4.3,10,1,0.614,alta
+180,Barbara Boutique,tienda de ropa,concordia,sin_web,4.3,46,1,0.613,alta
+181,FITO RETAMAL BARBERSHOP,peluqueria,parana,solo_redes,4.9,154,1,0.611,alta
+182,Veterinaria Uranga,veterinaria,parana,solo_redes,4.8,116,1,0.611,alta
+183,Catelotti Sport,gimnasio,concordia,solo_redes,4.9,51,1,0.611,alta
+184,BLUMET INDUMENTARIA & BARBER by Tari,peluqueria,concordia,sin_web,4.9,84,1,0.61,alta
+185,Orel,tienda de ropa,parana,sin_web,5.0,21,1,0.607,alta
+186,GTM Ferreteria,ferreteria,parana,sin_web,4.7,59,1,0.604,alta
+187,Atlas Gym,gimnasio,concordia,solo_redes,4.9,93,1,0.6,alta
+188,GYVET Clinica Veterinaria,veterinaria,parana,solo_redes,4.7,278,1,0.597,alta
+189,Veterinaria Parque,veterinaria,parana,sin_web,4.8,129,1,0.596,alta
+190,Pato Pampa - Paraná,tienda de ropa,parana,sin_web,4.8,19,1,0.596,alta
+191,Nueva Ferretería América,ferreteria,parana,sin_web,4.6,134,1,0.594,alta
+192,Bel Panino,restaurante,parana,solo_redes,4.4,102,1,0.592,alta
+193,El Estribo Chopería,restaurante,parana,sin_web,4.4,322,1,0.591,alta
+194,Prototype Shopping La Paz,tienda de ropa,parana,sin_web,4.4,21,1,0.591,alta
+195,Sarita Musuliotis - Salón de Peinados,peluqueria,concordia,solo_redes,4.9,106,1,0.589,alta
+196,BLAS,restaurante,parana,solo_redes,4.1,244,1,0.588,alta
+197,Peluquería Barbería Héroes Paraná,peluqueria,parana,solo_redes,5.0,188,1,0.583,alta
+198,La cocina de luli,restaurante,concordia,sin_web,4.8,20,1,0.581,alta
+199,VETERINARIA DAMONTE DR GUSTAVO DAMONTE,veterinaria,parana,sin_web,4.6,69,1,0.577,alta
+200,Green Salad,restaurante,parana,solo_redes,4.3,141,1,0.576,alta
+201,Rio Resto Bar (Paraná),restaurante,parana,solo_redes,4.2,895,1,0.573,alta
+202,Salón de Belleza Graciela,peluqueria,concordia,solo_redes,4.9,74,1,0.571,alta
+203,Veterinaria Hernández Paraná,veterinaria,parana,solo_redes,4.7,129,1,0.569,alta
+204,Cumar Maquinas Herramientas,ferreteria,parana,solo_redes,4.4,100,1,0.569,alta
+205,Espacio Animal - Veterinaria,veterinaria,concordia,solo_redes,4.6,191,1,0.568,alta
+206,Taxi Gas,ferreteria,parana,sin_web,4.8,69,1,0.566,alta
+207,Performance Gym,gimnasio,concordia,sin_web,4.9,42,1,0.565,alta
+208,Veterinaria Del Milagro,veterinaria,concordia,sin_web,4.7,28,1,0.565,alta
+209,BENINTENDE LINEA UOMO,tienda de ropa,parana,sin_web,4.7,27,1,0.563,alta
+210,Bigpowergimnasio concordia,gimnasio,concordia,solo_redes,5.0,25,1,0.562,alta
+211,Ferretería ABC,ferreteria,parana,solo_redes,4.7,178,1,0.56,alta
+212,POWER FEMME GYM,gimnasio,concordia,sin_web,5.0,21,1,0.554,alta
+213,Albarello Pasta & Vino,restaurante,parana,solo_redes,4.6,580,1,0.551,alta
+214,Gimnasio Casa D'Italia,gimnasio,parana,solo_redes,4.5,176,1,0.55,alta
+215,Bul Pint Ferretería industrial Bulonera,ferreteria,parana,sin_web,4.6,56,1,0.549,alta
+216,Ferretería Blas Parera,ferreteria,parana,sin_web,4.5,36,1,0.547,alta
+217,Pro Gym,gimnasio,parana,solo_redes,4.8,115,1,0.544,alta
+218,Ferretería Daniel Paraná Entré Ríos,ferreteria,parana,sin_web,4.6,34,1,0.544,alta
+219,Clínica Paraná Dr. Rubén Rodriguez,veterinaria,parana,solo_redes,4.3,215,1,0.541,alta
+220,FERRETERÍA Santa Rita,ferreteria,parana,sin_web,4.5,51,1,0.54,alta
+221,"Carnicería ""La Paz"" central",carniceria,concordia,solo_redes,4.8,555,1,0.539,alta
+222,"""El Patio"" - Rotisería",restaurante,concordia,solo_redes,4.4,191,1,0.535,alta
+223,FERRETERIA EL CICLÓN,ferreteria,parana,sin_web,4.6,112,1,0.535,alta
+224,Nueva Ferreteria Francisco Ramirez,ferreteria,parana,sin_web,4.5,134,1,0.534,alta
+225,GABRIEL D'ANTONA PELUQUERIA y barbería,peluqueria,concordia,sin_web,4.9,104,1,0.533,alta
+226,Tiempo Del Equilibrio,gimnasio,concordia,solo_redes,4.9,88,1,0.533,alta
+227,Peluquería FH,peluqueria,parana,sin_web,4.9,176,1,0.532,alta
+228,Saini,veterinaria,concordia,sin_web,4.7,77,1,0.531,alta
+229,Ferreteria Del Paraná,ferreteria,parana,plataforma_terceros,4.4,111,1,0.527,alta
+230,Gimnasio Simao,gimnasio,parana,solo_redes,4.7,190,1,0.526,alta
+231,Picaras,tienda de ropa,parana,sin_web,4.7,10,1,0.525,alta
+232,Veterinaria Salto Grande,veterinaria,concordia,sin_web,4.2,78,1,0.524,alta
+233,Ferretería DEPAKE,ferreteria,parana,sin_web,4.0,22,1,0.523,alta
+234,Nuevo Gimnasio El Aguante,gimnasio,parana,sin_web,4.7,60,1,0.523,alta
+235,MUNDO BELLEZA,peluqueria,concordia,solo_redes,4.4,40,1,0.522,alta
+236,Tandem,gimnasio,concordia,solo_redes,4.7,83,1,0.521,alta
+237,Midón Gas,ferreteria,concordia,sin_web,4.1,20,1,0.521,alta
+238,Ferreteria Miguel,ferreteria,parana,sin_web,4.6,130,1,0.52,alta
+239,VETERINARIA DRA ORNETTI MARIANA,veterinaria,parana,sin_web,4.7,78,1,0.52,alta
+240,Ferretería BOCHI,ferreteria,parana,sin_web,4.8,24,1,0.518,alta
+241,Dra Alicia H Rebot,veterinaria,concordia,sin_web,4.6,158,1,0.518,alta
+242,Centro Asistencia Veterinaria,veterinaria,parana,sin_web,4.7,96,1,0.517,alta
+243,Pilchitas Concordia,tienda de ropa,concordia,sin_web,4.4,10,1,0.515,alta
+244,Rodrigo Muñoz peluqueria,peluqueria,parana,solo_redes,4.9,97,1,0.515,alta
+245,Suministros Sanitarios Paraná,ferreteria,parana,sin_web,4.6,73,1,0.51,alta
+246,Club del bajon burgers,restaurante,parana,solo_redes,4.6,105,1,0.509,alta
+247,Peluquería Masculina Y Barbería Los Retamar,peluqueria,concordia,sin_web,4.7,51,1,0.507,alta
+248,Buen Provecho,restaurante,concordia,sin_web,4.5,32,1,0.506,alta
+249,Centro de entrenamiento SALUD SALVAJE,gimnasio,concordia,sin_web,5.0,30,1,0.504,alta
+250,Nikaia,gimnasio,concordia,sin_web,4.7,96,1,0.503,alta
+251,Gimnasio Kanpeki,gimnasio,concordia,sin_web,5.0,17,1,0.503,alta
+252,Estilista silvina techera,peluqueria,concordia,sin_web,4.9,25,1,0.502,alta
+253,Veterinaria La Herradura,veterinaria,concordia,sin_web,4.6,34,1,0.5,alta
+254,La Vera Napoli,restaurante,parana,solo_redes,4.5,63,1,0.499,alta
+255,ORTIZ Salón de Belleza,peluqueria,parana,solo_redes,4.2,240,1,0.499,alta
+256,Peluqueria Fabricio,peluqueria,parana,sin_web,4.9,210,1,0.495,alta
+257,Vera Cosméticos/Distribuidora Fabian Casa Central,peluqueria,concordia,sin_web,4.9,27,1,0.494,alta
+258,La Nonna Rina,panaderia,concordia,sin_web,4.6,460,1,0.492,alta
+259,STOA,gimnasio,parana,solo_redes,4.9,53,1,0.491,alta
+260,Ferreteria Maganpier,ferreteria,parana,sin_web,4.9,12,1,0.49,alta
+261,Peluqueria Lisandro Schierano,peluqueria,parana,sin_web,4.9,138,1,0.49,alta
+262,EME PELUQUERIA,peluqueria,parana,solo_redes,4.8,136,1,0.489,alta
+263,Ferreteria EL NENE,ferreteria,parana,sin_web,4.5,82,1,0.488,alta
+264,La Bocateria,restaurante,concordia,solo_redes,5.0,60,1,0.488,alta
+265,Carnicería El Águila,carniceria,concordia,sin_web,4.6,262,1,0.486,alta
+266,Veterinaria el Canil Dr Ricardo C Scavia,veterinaria,parana,sin_web,4.4,26,1,0.486,alta
+267,"Peluquería Canina ""El salón de tú mascota""",peluqueria,concordia,sin_web,5.0,111,1,0.485,alta
+268,GTM Ferreteria,ferreteria,parana,sin_web,4.7,17,1,0.485,alta
+269,JEANS & MAS,tienda de ropa,parana,sin_web,4.9,10,1,0.482,alta
+270,Lion Gym Paraná,gimnasio,parana,solo_redes,4.6,34,1,0.482,alta
+271,PELUQUERIA NICO,peluqueria,concordia,sin_web,4.6,29,1,0.479,alta
+272,Buena Pata,veterinaria,concordia,solo_redes,4.6,105,1,0.479,alta
+273,Body Gim GIMNASIO,gimnasio,parana,sin_web,4.6,86,1,0.478,alta
+274,Almanimal Veterinaria MV Jorgelina Genolet,veterinaria,parana,sin_web,4.9,39,1,0.477,alta
+275,AM Ferreterias ruedas mobiliario repuestos,ferreteria,parana,sin_web,4.9,11,1,0.474,alta
+276,Clínica Veterinaria Dra. Veronica Uranga,veterinaria,parana,solo_redes,4.8,43,1,0.473,alta
+277,Jorge Luis Coiffeur,peluqueria,concordia,sin_web,4.8,85,1,0.471,alta
+278,BABY CLUB GYM,gimnasio,concordia,sin_web,4.4,18,1,0.47,alta
+279,Club mascotas,veterinaria,parana,sin_web,5.0,68,1,0.47,alta
+280,Angy Salón de Peluqueria,peluqueria,parana,sin_web,4.8,73,1,0.47,alta
+281,PELUQUERÍA Jockey Club,peluqueria,parana,sin_web,4.8,149,1,0.469,alta
+282,Studio German - Peluqueria Unisex,peluqueria,parana,sin_web,4.7,112,1,0.468,alta
+283,Cohesion Corporal,gimnasio,parana,sin_web,4.7,61,1,0.467,alta
+284,ESTUDIO 360,gimnasio,concordia,solo_redes,5.0,17,1,0.464,alta
+285,Zootico Veterinaria,veterinaria,parana,solo_redes,4.6,48,1,0.463,alta
+286,Carnicería El Establo,carniceria,parana,solo_redes,4.6,308,1,0.463,alta
+287,Gimnasio Zeus,gimnasio,parana,sin_web,4.8,57,1,0.461,alta
+288,Don Mateo - Casa Central,panaderia,parana,sin_web,4.4,1183,1,0.458,alta
+289,"Bulonera y Ferretería ""NINO""",ferreteria,concordia,sin_web,4.6,10,1,0.458,alta
+290,Marcelo Garcia Nevez Peluqueria,peluqueria,parana,sin_web,4.8,227,1,0.457,alta
+291,360º Gym Center,gimnasio,parana,sin_web,4.6,83,1,0.456,media
+292,Gimnasio Azarian,gimnasio,concordia,sin_web,4.7,79,1,0.456,media
+293,NAVIT Peluquería y Belleza,peluqueria,parana,sin_web,4.9,58,1,0.451,media
+294,Salón Natural Look Peluquería,peluqueria,concordia,sin_web,4.8,68,1,0.45,media
+295,Peluquería *Majo*,peluqueria,parana,sin_web,4.8,47,1,0.446,media
+296,"Panaderia ""Panificadora San Carlos""",panaderia,concordia,solo_redes,4.5,145,1,0.445,media
+297,Veterinaria Garay,veterinaria,parana,sin_web,4.8,39,1,0.444,media
+298,Nuevo Estilo Peluqueria-Estética,peluqueria,concordia,sin_web,4.8,16,1,0.443,media
+299,Panadería Paracao,panaderia,parana,solo_redes,4.6,1861,1,0.443,media
+300,Supermercado Modelo Express,carniceria,concordia,sin_web,4.0,448,1,0.442,media
+301,El Molino,panaderia,parana,solo_redes,4.1,315,1,0.442,media
+302,NF mecánica integral,taller mecanico,concordia,solo_redes,5.0,18,1,0.441,media
+303,Carne Argentina,carniceria,concordia,sin_web,4.7,134,1,0.44,media
+304,Veterinaria Que Mirás Pet's,veterinaria,parana,sin_web,4.8,10,1,0.439,media
+305,Peluqueria Dictus de Antonio Comaleras,peluqueria,parana,sin_web,4.7,59,1,0.439,media
+306,Munay gaby peluqueria,peluqueria,concordia,sin_web,5.0,20,1,0.438,media
+307,Gimnasio Bonarrigo,gimnasio,parana,solo_redes,4.5,51,1,0.432,media
+308,Social Café,panaderia,parana,solo_redes,4.3,1496,1,0.432,media
+309,Taller Mecánico Aleman Racing,taller mecanico,concordia,sin_web,5.0,13,1,0.424,media
+310,Buda Gym,gimnasio,parana,sin_web,4.7,83,1,0.421,media
+311,Servicio Automotor 323,taller mecanico,concordia,sin_web,4.8,60,1,0.42,media
+312,Panaderia Churreria Agustin,panaderia,parana,sin_web,4.6,215,1,0.42,media
+313,Rocio Espindola Estilista. Academia de Peluqueria New Time,peluqueria,concordia,sin_web,4.8,11,1,0.42,media
+314,Peluqueria El Flaco,peluqueria,concordia,sin_web,4.8,58,1,0.42,media
+315,Arenera Martínez y Premoldeados Ruta 4,ferreteria,concordia,sin_web,4.1,40,1,0.419,media
+316,Oxígeno - Actividades Físicas & Spa (sede Salta),gimnasio,parana,sin_web,4.7,19,1,0.418,media
+317,Minimercado Granja Aurora,carniceria,parana,solo_redes,4.5,736,1,0.416,media
+318,Chipitas & Cia.,panaderia,concordia,sin_web,4.5,115,1,0.416,media
+319,Savage Peluquería,peluqueria,parana,solo_redes,4.9,55,1,0.415,media
+320,Belissima Peluquería,peluqueria,parana,sin_web,4.9,82,1,0.412,media
+321,Ferreteria MD y Bulonera,ferreteria,concordia,sin_web,4.4,14,1,0.406,media
+322,Mundo Relax,gimnasio,concordia,solo_redes,5.0,10,1,0.404,media
+323,AM salón unisex,peluqueria,concordia,solo_redes,4.8,27,1,0.401,media
+324,taller Mecánico Torque,taller mecanico,parana,sin_web,4.8,76,1,0.4,media
+325,FIT form EL GIMNASIO,gimnasio,parana,sin_web,4.1,112,1,0.399,media
+326,Panadería Internacional,panaderia,concordia,sin_web,4.4,430,1,0.399,media
+327,VETERINARIA SANTILLAN,veterinaria,parana,sin_web,4.6,76,1,0.398,media
+328,"Peluquería y Barberia ""El Trebol"" - Concordia",peluqueria,concordia,solo_redes,4.6,32,1,0.398,media
+329,El Principito Panaderia,panaderia,concordia,sin_web,4.4,335,1,0.397,media
+330,"Ferretería ""El Cordobés""",ferreteria,parana,solo_redes,4.5,13,1,0.395,media
+331,La Artesanal,panaderia,parana,sin_web,4.5,247,1,0.394,media
+332,Salon Virginia Peluqueria,peluqueria,concordia,sin_web,4.8,26,1,0.392,media
+333,Peluquería Jordán,peluqueria,parana,solo_redes,4.5,31,1,0.39,media
+334,Veterinaria Estación Mascotas,veterinaria,parana,solo_redes,4.8,19,1,0.389,media
+335,"Peluqueria MARY ,Anto vc y Angeles.clothing_",peluqueria,concordia,sin_web,4.3,10,1,0.387,media
+336,Novello jorge,taller mecanico,parana,sin_web,4.7,368,1,0.386,media
+337,Taller Mecánico/Mecánica - Excel Service Car,taller mecanico,parana,solo_redes,5.0,271,1,0.386,media
+338,DAGÁZ Peluquería,peluqueria,parana,solo_redes,5.0,41,1,0.386,media
+339,Mecánica Nico,taller mecanico,parana,sin_web,4.7,65,1,0.386,media
+340,LAS 4 ESTRELLAS,peluqueria,parana,sin_web,4.7,131,1,0.385,media
+341,Barbería y Peluquería JUL,peluqueria,parana,sin_web,5.0,41,1,0.385,media
+342,GABRIELA BIFIGER PELUQUERÍA,peluqueria,parana,solo_redes,4.3,44,1,0.382,media
+343,SOMA Kinesiología y Ortopedia,gimnasio,concordia,solo_redes,4.8,23,1,0.382,media
+344,Ferreteria y Pintureria Alte Brown,ferreteria,parana,sin_web,4.5,39,1,0.38,media
+345,AXIS,gimnasio,concordia,solo_redes,4.8,79,1,0.379,media
+346,San Martín club social parana,restaurante,parana,solo_redes,4.6,13,1,0.379,media
+347,Armonía Strong gym,gimnasio,parana,solo_redes,5.0,15,1,0.374,media
+348,La Cueva Entrenamientos,gimnasio,parana,solo_redes,4.8,33,1,0.372,media
+349,Santana Peluqueria y Estetica,peluqueria,parana,sin_web,5.0,56,1,0.372,media
+350,Natella Peluqueria,peluqueria,parana,solo_redes,4.9,37,1,0.37,media
+351,Moto Técnica,taller mecanico,parana,sin_web,4.7,69,1,0.369,media
+352,Perfomance Evolution GYM,gimnasio,parana,solo_redes,4.7,106,1,0.369,media
+353,Punto Fit Paraná,gimnasio,parana,sin_web,5.0,18,1,0.368,media
+354,Sergio Franchi e Hijo SRL,taller mecanico,parana,sin_web,4.7,325,1,0.365,media
+355,Panadería y Confitería ROMA,panaderia,parana,sin_web,4.6,494,1,0.362,media
+356,Facturity La Panadería,panaderia,parana,sin_web,4.1,539,1,0.361,media
+357,Gimnasio Club Privado Amalia Ruiz,gimnasio,parana,sin_web,4.5,145,1,0.36,media
+358,Panadería Los 3 Indios,panaderia,parana,sin_web,4.2,664,1,0.357,media
+359,Punto Criollo,carniceria,concordia,solo_redes,5.0,58,1,0.357,media
+360,PELUQUERÍA MEN,peluqueria,parana,sin_web,4.9,105,1,0.355,media
+361,Carnicería y Autoservicio Valenti,carniceria,parana,sin_web,4.8,31,1,0.353,media
+362,Maxitodo Golosinas,verduleria,concordia,sin_web,4.4,69,1,0.352,media
+363,Santino Hair,peluqueria,parana,sin_web,4.3,83,1,0.35,media
+364,MM Entrenamiento,gimnasio,parana,solo_redes,5.0,18,1,0.349,media
+365,Taller Mecánico Fracalossi,taller mecanico,concordia,sin_web,4.8,24,1,0.348,media
+366,Natura Pan,panaderia,parana,sin_web,4.4,160,1,0.343,media
+367,Mecánica integral Furno,taller mecanico,parana,sin_web,5.0,22,1,0.341,media
+368,Cacao y Vainilla,panaderia,concordia,sin_web,4.5,342,1,0.341,media
+369,Carla Ru Peluquería,peluqueria,parana,sin_web,4.8,20,1,0.34,media
+370,Difushion,peluqueria,parana,sin_web,4.9,58,1,0.34,media
+371,La Espiga de Oro,panaderia,parana,solo_redes,4.5,261,1,0.339,media
+372,Clinica Veterinaria Gemelos,veterinaria,parana,sin_web,4.6,40,1,0.338,media
+373,La Pelu de Luz - Rulos Paraná,peluqueria,parana,sin_web,5.0,57,1,0.337,media
+374,Veterinaria Esperanza,veterinaria,parana,sin_web,4.6,55,1,0.336,media
+375,Chiqui´s Hair Peluquería,peluqueria,parana,sin_web,4.8,41,1,0.335,media
+376,Virgen del Rosario,ferreteria,parana,sin_web,4.2,26,1,0.333,media
+377,Attitude Gym,gimnasio,parana,sin_web,5.0,26,1,0.332,media
+378,Consultorio Veterinario dr collazzo,veterinaria,concordia,sin_web,4.8,18,1,0.33,media
+379,Lo De Perez (Taller Mecanico),taller mecanico,concordia,sin_web,4.5,19,1,0.329,media
+380,Mecánica DF,taller mecanico,concordia,sin_web,4.8,18,1,0.324,media
+381,Maxi Carnicería,carniceria,concordia,solo_redes,4.8,140,1,0.323,media
+382,Taller Aldo,taller mecanico,parana,sin_web,4.7,120,1,0.321,media
+383,Beauty Time peluquería,peluqueria,concordia,sin_web,5.0,12,1,0.318,media
+384,GINO peluqueria y barberia,peluqueria,parana,sin_web,4.8,73,1,0.317,media
+385,FERRETERIA CRACCO,ferreteria,concordia,sin_web,4.5,25,1,0.317,media
+386,"Ferretería ""Tarenco""",ferreteria,parana,sin_web,4.2,40,1,0.316,media
+387,Ferreteria Matcor,ferreteria,parana,sin_web,4.6,29,1,0.314,media
+388,Laura Peluquería y Belleza,peluqueria,parana,sin_web,4.7,45,1,0.312,media
+389,Ferretería Díaz Velez,ferreteria,parana,sin_web,4.2,17,1,0.308,media
+390,Brenda Zoff - Zelma Serotkin Peluquería,peluqueria,parana,solo_redes,4.9,64,1,0.307,media
+391,Panadería Y Confiteria La Francisquita,panaderia,concordia,sin_web,4.4,230,1,0.304,media
+392,GPS Taller,taller mecanico,parana,sin_web,4.6,77,1,0.303,media
+393,Salón De Peluquería Style,peluqueria,parana,sin_web,4.7,62,1,0.302,media
+394,FERRETERIA LUNA (LUNA E HIJOS SRL),ferreteria,parana,sin_web,4.6,30,1,0.301,media
+395,"Municipalidad de Paraná, Centro de Atención Veterinaria Primaria Municipal",veterinaria,parana,sin_web,4.1,74,1,0.297,media
+396,Veterinaria Hakuna Matata,veterinaria,concordia,solo_redes,4.8,10,1,0.292,media
+397,El Rincon,veterinaria,concordia,sin_web,4.4,10,1,0.29,media
+398,PANADERIA BIZCAL,panaderia,concordia,sin_web,4.2,39,1,0.289,media
+399,Carniceria La estancia,carniceria,concordia,sin_web,4.9,22,1,0.288,media
+400,"Panaderia""LA NEGRITA""",panaderia,concordia,sin_web,4.5,632,1,0.287,media
+401,Mecanica Grosso,taller mecanico,parana,sin_web,4.9,21,1,0.287,media
+402,Peluqueria de rulos en Paraná / Rulos con estilo by Antonella Retamar Estilista/ Especialista en rulos,peluqueria,parana,sin_web,4.9,68,1,0.281,media
+403,Norte Supermercado,carniceria,concordia,sin_web,4.3,141,1,0.278,media
+404,Panificación Baty,panaderia,parana,sin_web,4.5,186,1,0.276,media
+405,Vida Activa,gimnasio,parana,sin_web,4.9,19,1,0.274,media
+406,Gimnasio sport fitness Paraná,gimnasio,parana,sin_web,4.2,58,1,0.274,media
+407,Saborapan Cian panaderias,panaderia,parana,solo_redes,4.7,142,1,0.273,media
+408,Todo Freno.,taller mecanico,concordia,sin_web,4.6,29,1,0.273,media
+409,Jesy Franco Estilista Unisex,peluqueria,parana,sin_web,4.9,62,1,0.272,media
+410,Mecanica Biase Servicio Renault,taller mecanico,parana,sin_web,4.7,107,1,0.272,media
+411,Gazzolo Autoservicio,verduleria,concordia,sin_web,4.0,74,1,0.271,media
+412,Supermercado Modelo Express,verduleria,concordia,sin_web,4.2,697,1,0.271,media
+413,Galarza hnos servicios,taller mecanico,concordia,sin_web,4.8,45,1,0.27,media
+414,Lubritec Parana,taller mecanico,parana,solo_redes,4.6,30,1,0.268,media
+415,Panadería La Nueva Italia,panaderia,parana,sin_web,4.4,499,1,0.267,media
+416,Veterinaria Eandi,veterinaria,parana,sin_web,4.2,17,1,0.264,media
+417,Cacao y Vainilla,panaderia,concordia,sin_web,4.3,559,1,0.261,media
+418,Fruteria La Huerta S.A,verduleria,parana,sin_web,4.5,111,1,0.259,media
+419,Timón Servicio Mecánico,taller mecanico,concordia,sin_web,4.8,44,1,0.257,media
+420,GPS Taller - El Cordobes,taller mecanico,concordia,sin_web,5.0,12,1,0.256,media
+421,Panaderia la Margarita,panaderia,parana,sin_web,4.6,651,1,0.255,media
+422,Meucci,carniceria,parana,sin_web,4.5,226,1,0.254,media
+423,Centro de Peluqueria - Ego Comelli,peluqueria,parana,solo_redes,4.8,69,1,0.254,media
+424,MedVet Clínica Veterinaria,veterinaria,parana,sin_web,4.9,10,1,0.251,media
+425,Panaderia La Alemana,panaderia,parana,sin_web,4.7,106,1,0.249,media
+426,Studio uno peluqueria,peluqueria,parana,sin_web,4.9,36,1,0.245,media
+427,panadería confitería A GUSTO,panaderia,parana,sin_web,4.7,70,1,0.244,media
+428,La Pecosa,carniceria,parana,sin_web,4.6,494,1,0.241,media
+429,PELUQUERIA ADAN,peluqueria,parana,sin_web,4.7,41,1,0.238,media
+430,La Huerta,verduleria,parana,sin_web,4.5,36,1,0.237,media
+431,Homero Martín Peluqueria,peluqueria,parana,sin_web,4.8,36,1,0.231,media
+432,Verdulería Don Cuervo,verduleria,parana,sin_web,4.9,28,1,0.231,media
+433,Motion center,gimnasio,parana,sin_web,4.9,15,1,0.226,media
+434,Taller Mecánico SIM,taller mecanico,concordia,solo_redes,4.7,33,1,0.226,media
+435,Mecánica Scalabrini,taller mecanico,parana,sin_web,4.8,33,1,0.226,media
+436,La Esquina De Daniel,verduleria,concordia,solo_redes,4.7,64,1,0.226,media
+437,Flavia Rosas Hair & Make Up,peluqueria,concordia,sin_web,4.9,11,1,0.226,media
+438,Panadería La Integral,panaderia,parana,sin_web,4.5,119,1,0.225,media
+439,Taller Mecánico Morales,taller mecanico,concordia,sin_web,4.6,21,1,0.222,media
+440,Verdulería “Juan Carlos”,verduleria,parana,sin_web,4.8,69,1,0.218,media
+441,Pulsion Vital Pilates,gimnasio,parana,sin_web,4.4,43,1,0.217,media
+442,Panaderia Tres Sabores,panaderia,parana,sin_web,4.6,31,1,0.217,media
+443,La Milonguita Panadería y Café,panaderia,concordia,solo_redes,4.2,216,1,0.216,media
+444,Fruteria Verdulería Santino,verduleria,parana,sin_web,4.2,331,1,0.215,media
+445,Panaderia Graf,panaderia,parana,solo_redes,4.9,78,1,0.215,media
+446,Panadería La Cuadra,panaderia,parana,sin_web,4.6,162,1,0.214,media
+447,"Carnicería y Pollería "" El Abuelo""",carniceria,concordia,sin_web,4.3,82,1,0.214,media
+448,Gimnasio Baucis,gimnasio,parana,sin_web,4.8,11,1,0.213,media
+449,Romina Luna,peluqueria,concordia,sin_web,4.9,16,1,0.212,media
+450,"Panaderia ""Panificadora San Carlos bis""",panaderia,concordia,solo_redes,4.7,54,1,0.209,media
+451,Fika Espresso Bar,panaderia,parana,solo_redes,4.5,333,1,0.207,media
+452,GPS Taller - Mecánica Espiro,taller mecanico,parana,sin_web,4.6,50,1,0.207,media
+453,La Mazorca Bakery,panaderia,parana,sin_web,4.5,228,1,0.207,media
+454,El Estribo Restó-Bar,restaurante,parana,sin_web,4.0,21,1,0.206,media
+455,Taller mecánico Julio César,taller mecanico,concordia,sin_web,4.9,11,1,0.205,media
+456,El Mundo Carnes,carniceria,parana,sin_web,4.6,328,1,0.203,media
+457,Mecanica Dorrego,taller mecanico,parana,sin_web,4.6,88,1,0.202,media
+458,FITHOUSE,gimnasio,parana,solo_redes,5.0,16,1,0.2,media
+459,Carnicería Nueva Era,carniceria,parana,solo_redes,4.6,225,1,0.2,media
+460,saborapan Cian panaderias,panaderia,parana,solo_redes,4.4,217,1,0.197,media
+461,Oty Hairdressing peluqueria Unisex,peluqueria,parana,solo_redes,5.0,13,1,0.195,media
+462,GPS Taller - Joaquin Monti,taller mecanico,concordia,sin_web,4.8,10,1,0.194,media
+463,Carniceria La Selecta,carniceria,concordia,sin_web,4.8,62,1,0.193,media
+464,saborapan cian panaderias,panaderia,parana,solo_redes,4.3,27,1,0.192,media
+465,Frutas Gotte,verduleria,concordia,sin_web,4.5,108,1,0.191,media
+466,La Herradura Meats & Wines,carniceria,parana,sin_web,5.0,45,1,0.191,media
+467,La Rambla Panaderia,panaderia,parana,solo_redes,4.4,16,1,0.191,media
+468,Panaderia Domenica,panaderia,parana,solo_redes,5.0,10,1,0.19,media
+469,Jorge Borgo Servicio Mecánico,taller mecanico,concordia,sin_web,4.4,27,1,0.188,media
+470,Carnicería MyV carnes,carniceria,concordia,solo_redes,5.0,29,1,0.184,media
+471,Verdulería El Progreso,verduleria,parana,sin_web,4.2,598,1,0.183,media
+472,"Mecanica ""LJM El Rafa""",taller mecanico,parana,sin_web,4.6,42,1,0.183,media
+473,Glowup peluqueria,peluqueria,parana,sin_web,4.8,29,1,0.181,media
+474,Taller Mecanico El Moise,taller mecanico,concordia,sin_web,4.2,11,1,0.179,media
+475,Bella Donna Peluqueria de Cristian Kemerer,peluqueria,parana,sin_web,4.9,14,1,0.179,media
+476,Ñiam Delicias | Alem,panaderia,parana,solo_redes,4.6,64,1,0.177,media
+477,Mecanica Yuskowich,taller mecanico,parana,sin_web,4.8,31,1,0.176,media
+478,Carnicería Fátima,carniceria,parana,sin_web,4.6,210,1,0.175,media
+479,Carnicería La Loma,carniceria,parana,sin_web,4.6,221,1,0.174,media
+480,Forrajeria y Ferretería Camba Paso,ferreteria,concordia,sin_web,4.1,10,1,0.172,media
+481,Custom Garage,taller mecanico,parana,sin_web,4.9,20,1,0.172,media
+482,MTS Taller Mecanico,taller mecanico,parana,solo_redes,4.7,20,1,0.17,media
+483,Panaderia y Confiteria Avenida,panaderia,parana,sin_web,4.4,114,1,0.168,media
+484,Panificacion Española,panaderia,concordia,sin_web,4.1,54,1,0.167,media
+485,Trigo Y Mandioca,panaderia,concordia,sin_web,4.6,10,1,0.166,media
+486,El Vikingo II,carniceria,parana,solo_redes,4.5,54,1,0.157,media
+487,"""La Josefa, Verduleria y Fruteria""",verduleria,concordia,sin_web,5.0,10,1,0.157,media
+488,Taller Mecanico Vicentin,taller mecanico,parana,sin_web,4.7,47,1,0.156,media
+489,Pasteleria Momento Dulce,panaderia,parana,solo_redes,4.7,98,1,0.155,media
+490,Verdulería La Nueva,verduleria,parana,solo_redes,4.7,80,1,0.154,media
+491,Abi Sendros Patisserie,panaderia,concordia,solo_redes,4.7,52,1,0.151,baja
+492,De Raíz,verduleria,parana,sin_web,4.9,13,1,0.15,baja
+493,Panificación la Nueva Sofi,panaderia,concordia,sin_web,4.5,112,1,0.149,baja
+494,GPS Taller - Mecanica Paiz,taller mecanico,parana,sin_web,4.9,15,1,0.149,baja
+495,mecanica integral faben,taller mecanico,parana,sin_web,4.9,15,1,0.148,baja
+496,La Pasteleria,panaderia,concordia,sin_web,4.8,34,1,0.144,baja
+497,MYM MECANICA,taller mecanico,parana,sin_web,4.1,16,1,0.142,baja
+498,Estancia San Antonio Carniceria,carniceria,parana,sin_web,4.7,120,1,0.14,baja
+499,LA PANDORA,carniceria,parana,sin_web,4.8,79,1,0.14,baja
+500,Carniceria Bon Ques,carniceria,parana,sin_web,4.9,20,1,0.139,baja
+501,La Primera Carnes Especiales,carniceria,parana,sin_web,4.7,26,1,0.139,baja
+502,Panaderia Crocante,panaderia,concordia,solo_redes,4.8,23,1,0.138,baja
+503,GPS Taller - CAR CHECK,taller mecanico,parana,sin_web,4.7,19,1,0.137,baja
+504,Lo de Luis,carniceria,concordia,sin_web,4.5,84,1,0.137,baja
+505,Taller Parana,taller mecanico,parana,sin_web,4.3,21,1,0.135,baja
+506,Verdulería El Triángulo,verduleria,parana,solo_redes,4.3,70,1,0.134,baja
+507,Verdulería Florencia,verduleria,parana,sin_web,4.4,23,1,0.131,baja
+508,Saborapan cian panaderias,panaderia,parana,solo_redes,4.2,18,1,0.128,baja
+509,FG Mecánica Especializada,taller mecanico,parana,sin_web,5.0,17,1,0.128,baja
+510,"Verdulería mayorista y minorista ""FRUTIMAS""",verduleria,concordia,sin_web,4.4,39,1,0.127,baja
+511,Panadería La Unión,panaderia,parana,sin_web,5.0,11,1,0.125,baja
+512,Lo de Pietravallo,carniceria,concordia,sin_web,4.6,51,1,0.124,baja
+513,Carniceria CHICHO,carniceria,concordia,sin_web,4.7,12,1,0.121,baja
+514,Carniceria Que Ternera,carniceria,parana,sin_web,4.6,50,1,0.118,baja
+515,Carniceria la Estrella Atendido Por Sus Dueños,carniceria,concordia,sin_web,4.7,14,1,0.118,baja
+516,Minimercado Vélez Sársfield,verduleria,concordia,solo_redes,4.4,27,1,0.117,baja
+517,Apana,panaderia,parana,sin_web,4.6,82,1,0.117,baja
+518,La Economica,verduleria,parana,solo_redes,5.0,11,1,0.116,baja
+519,Verdulería PUNTO VERDE,verduleria,parana,solo_redes,4.9,32,1,0.114,baja
+520,"Verdulería ""Los de Siempre""",verduleria,parana,sin_web,4.5,68,1,0.112,baja
+521,Panaderia Graf,panaderia,parana,solo_redes,4.6,86,1,0.111,baja
+522,Cacao y Vainilla,panaderia,concordia,sin_web,4.3,30,1,0.111,baja
+523,Carniceria La Rusita,carniceria,parana,sin_web,4.4,11,1,0.106,baja
+524,Mecanica RB servició Mecánico de automóviles,taller mecanico,concordia,solo_redes,4.9,12,1,0.106,baja
+525,Mecánica Arijon,taller mecanico,parana,solo_redes,4.8,44,1,0.106,baja
+526,LA HERRADURA CARNES ESPECIALES,carniceria,parana,sin_web,4.5,141,1,0.105,baja
+527,Panadería,panaderia,concordia,sin_web,4.3,15,1,0.103,baja
+528,Verdulería Roberto,verduleria,parana,sin_web,4.7,13,1,0.103,baja
+529,Carnicería Alonso,carniceria,parana,sin_web,4.9,52,1,0.101,baja
+530,DONELLA panadería y pastelería,panaderia,concordia,sin_web,4.1,16,1,0.1,baja
+531,Carniceria La Granja,carniceria,parana,sin_web,4.8,75,1,0.1,baja
+532,Organica fruteria y verduleria,verduleria,parana,sin_web,4.2,63,1,0.099,baja
+533,Mecanica Fochesatto,taller mecanico,concordia,sin_web,4.8,11,1,0.098,baja
+534,Pocampo Carbó,carniceria,parana,plataforma_terceros,4.3,257,1,0.097,baja
+535,Carniceria El Mundo,carniceria,parana,sin_web,4.5,70,1,0.096,baja
+536,Carniceria el amigo,carniceria,parana,sin_web,4.3,14,1,0.096,baja
+537,Granja Crespo,carniceria,parana,sin_web,4.5,10,1,0.096,baja
+538,Santa Ana,verduleria,concordia,sin_web,4.4,36,1,0.094,baja
+539,GALP mecanica integral,taller mecanico,parana,sin_web,5.0,17,1,0.094,baja
+540,Verdulería “La Peña Saludable”,verduleria,parana,sin_web,4.4,11,1,0.092,baja
+541,Carnicerias Vital,carniceria,parana,solo_redes,4.3,44,1,0.091,baja
+542,Carnicería Smaldone,carniceria,concordia,sin_web,4.8,12,1,0.09,baja
+543,"Carniceria ""La perla""",carniceria,concordia,sin_web,4.5,11,1,0.089,baja
+544,Panadería Brownie's,panaderia,concordia,sin_web,4.1,10,1,0.088,baja
+545,M.A.B. Servicio Automotriz,taller mecanico,parana,sin_web,4.5,12,1,0.088,baja
+546,Gradamar,carniceria,concordia,sin_web,4.2,26,1,0.087,baja
+547,Carniceria Vital,carniceria,parana,solo_redes,4.2,20,1,0.087,baja
+548,Verdulería y frutería MARISA,verduleria,parana,sin_web,4.7,39,1,0.085,baja
+549,Pondesur,carniceria,parana,sin_web,4.6,17,1,0.084,baja
+550,"Ormaechea lubricantes, filtros y más",taller mecanico,concordia,sin_web,4.7,20,1,0.081,baja
+551,Carnicería La Estancia,carniceria,parana,sin_web,4.4,26,1,0.079,baja
+552,DyV Carnicería y verduleria,carniceria,concordia,sin_web,4.8,27,1,0.075,baja
+553,M&R Mecánica Integral,taller mecanico,concordia,sin_web,4.7,19,1,0.074,baja
+554,Carniceria El Halcon,carniceria,parana,sin_web,4.8,25,1,0.072,baja
+555,Carnicería El Pepe,carniceria,concordia,sin_web,4.0,23,1,0.072,baja
+556,Carniceria Los Gurises,carniceria,parana,sin_web,4.6,25,1,0.071,baja
+557,La Carniceria,carniceria,parana,sin_web,5.0,10,1,0.071,baja
+558,"Polleria ""Los Gringos""",carniceria,parana,sin_web,5.0,14,1,0.068,baja
+559,GPS Taller - Servicio Mecánico SALVETTI,taller mecanico,parana,sin_web,4.8,51,1,0.068,baja
+560,GPS Taller - Mecanica El Turco,taller mecanico,concordia,sin_web,4.7,15,1,0.067,baja
+561,Carniceria Virgen Del Rosario,carniceria,parana,sin_web,4.8,32,1,0.066,baja
+562,Carniceria Santa Silvia,carniceria,concordia,solo_redes,4.6,28,1,0.065,baja
+563,El solar,carniceria,parana,sin_web,5.0,15,1,0.064,baja
+564,Carniceria Santa Rita,carniceria,parana,solo_redes,4.6,18,1,0.062,baja
+565,Carnicería Máxima,carniceria,parana,sin_web,4.3,56,1,0.062,baja
+566,Mecánica Lugrin,taller mecanico,concordia,sin_web,4.8,27,1,0.06,baja
+567,GPS Taller - Servicio Mecanico Efchi,taller mecanico,parana,sin_web,4.8,59,1,0.059,baja
+568,La Loma,carniceria,parana,sin_web,4.2,25,1,0.049,baja
+569,GPS Taller - Mecanica Toso,taller mecanico,parana,sin_web,4.9,14,1,0.047,baja
+570,Carnicería New Ranch,carniceria,parana,sin_web,4.5,13,1,0.046,baja
+571,Mecánica José,taller mecanico,parana,sin_web,4.5,44,1,0.046,baja
+572,Carnes La Excelencia,carniceria,parana,sin_web,4.7,19,1,0.043,baja
+573,El Pequeño Aguila,carniceria,concordia,sin_web,4.3,19,1,0.04,baja
+574,La Estiba Carnicería,carniceria,parana,sin_web,4.5,11,1,0.025,baja
+575,Farmacia Moderna,farmacia,parana,solo_redes,3.8,68,0,0.9,alta
+576,Cristobal Panchos,restaurante,concordia,sin_web,3.9,448,0,0.879,alta
+577,Farmacia Farmacenter,farmacia,concordia,solo_redes,5.0,7,0,0.839,alta
+578,Farmacia del Globo,farmacia,concordia,sin_web,4.7,6,0,0.823,alta
+579,SPECTROLIVE.men calzados,tienda de ropa,concordia,sin_web,3.9,69,0,0.822,alta
+580,Farmacia San Antonio II,farmacia,concordia,sin_web,4.8,8,0,0.82,alta
+581,Farmacia San Roque,farmacia,concordia,sin_web,4.5,6,0,0.813,alta
+582,Cristobal La Parrilla,restaurante,concordia,sin_web,3.5,997,0,0.804,alta
+583,Farmacia Andina este,farmacia,concordia,sin_web,5.0,5,0,0.804,alta
+584,Farmacia Abril,farmacia,parana,solo_redes,2.9,61,0,0.797,alta
+585,Farmacia Cientifica,farmacia,concordia,sin_web,4.2,6,0,0.783,alta
+586,Yantar de La Costa,restaurante,concordia,sin_web,3.8,512,0,0.775,alta
+587,SANZ MAYORISTA,tienda de ropa,concordia,sin_web,4.3,4,0,0.771,alta
+588,Farmacia Con Salud,farmacia,parana,sin_web,4.6,7,0,0.765,alta
+589,La Valijita,tienda de ropa,concordia,sin_web,3.0,11,0,0.765,alta
+590,Farmacia Mejorando,farmacia,parana,solo_redes,4.4,7,0,0.76,alta
+591,FARMACIA SOCIEDAD ESPAÑOLA DE SOCORROS MUTUOS Y BENEFICENCIA,farmacia,parana,solo_redes,4.7,6,0,0.753,alta
+592,L&L Laula Concordia,tienda de ropa,concordia,sin_web,5.0,6,0,0.743,alta
+593,MG clothes,tienda de ropa,concordia,solo_redes,5.0,4,0,0.74,alta
+594,Chana Resto,restaurante,parana,solo_redes,3.9,523,0,0.739,alta
+595,Restaurant Yantar,restaurante,concordia,sin_web,3.8,423,0,0.732,alta
+596,Farmacia A+A,farmacia,parana,sin_web,3.7,9,0,0.725,alta
+597,Almacén lo de colo,almacen,concordia,sin_web,5.0,1,0,0.723,alta
+598,FARMACIA CIRCULO,farmacia,parana,sin_web,4.4,8,0,0.715,alta
+599,Armonia Almacén Natural,almacen,concordia,sin_web,5.0,4,0,0.712,alta
+600,Farmacia Tribunales,farmacia,parana,sin_web,4.2,9,0,0.71,alta
+601,Las Juanas,tienda de ropa,parana,sin_web,3.9,37,0,0.703,alta
+602,Luxoria,tienda de ropa,concordia,solo_redes,5.0,5,0,0.702,alta
+603,SEFARER,farmacia,parana,sin_web,2.5,4,0,0.694,alta
+604,El Almacen Alimentacion Saludable,almacen,concordia,solo_redes,5.0,6,0,0.688,alta
+605,Boutique Chez - Aliss,tienda de ropa,concordia,sin_web,5.0,2,0,0.681,alta
+606,Almacen MAR & AND,almacen,concordia,sin_web,4.4,30,0,0.68,alta
+607,Farmacia Roliria Parque,farmacia,parana,solo_redes,4.4,81,0,0.672,alta
+608,El Mercadito,tienda de ropa,concordia,sin_web,4.3,4,0,0.669,alta
+609,Los Quinchos,restaurante,parana,sin_web,3.8,1763,0,0.667,alta
+610,Don Alfredo MiniMarket,almacen,concordia,sin_web,5.0,2,0,0.654,alta
+611,La previa kiosco almacén,almacen,concordia,sin_web,4.8,5,0,0.653,alta
+612,Chocolate,tienda de ropa,parana,sin_web,3.7,19,0,0.646,alta
+613,Como en Casa,restaurante,parana,solo_redes,3.9,106,0,0.644,alta
+614,Tienda Equis,tienda de ropa,parana,sin_web,4.7,6,0,0.639,alta
+615,Reina Emilia Concordia,tienda de ropa,concordia,solo_redes,5.0,1,0,0.635,alta
+616,Mostaza,restaurante,parana,sin_web,4.2,2907,0,0.626,alta
+617,Mas Que Bonita,tienda de ropa,concordia,sin_web,5.0,3,0,0.617,alta
+618,Para Ti Boutique,tienda de ropa,concordia,sin_web,5.0,1,0,0.616,alta
+619,Bulonera el paso,ferreteria,concordia,sin_web,4.6,7,0,0.616,alta
+620,Nicoleta,almacen,parana,solo_redes,5.0,7,0,0.611,alta
+621,Ambar Boutique,tienda de ropa,concordia,sin_web,5.0,1,0,0.603,alta
+622,Ferretería Miguel,ferreteria,parana,solo_redes,4.7,397,0,0.595,alta
+623,Almacén Mediterráneo,almacen,parana,sin_web,5.0,6,0,0.593,alta
+624,NAPOLES DRUGSTORE Y FOOD,almacen,concordia,sin_web,,0,0,0.591,alta
+625,Farmacia Aldaos,farmacia,parana,sin_web,3.4,18,0,0.587,alta
+626,Tulum,tienda de ropa,parana,solo_redes,4.5,2,0,0.584,alta
+627,La verdu del rey,almacen,concordia,sin_web,5.0,1,0,0.582,alta
+628,Farmacia Catamarca,farmacia,concordia,sin_web,,0,0,0.58,alta
+629,Almacen de los Panaderos,almacen,concordia,sin_web,4.8,45,0,0.573,alta
+630,El almacén,almacen,parana,sin_web,4.8,6,0,0.563,alta
+631,RG Urbanwear,tienda de ropa,concordia,solo_redes,4.3,3,0,0.56,alta
+632,Reina M (verdulería y almacén),almacen,parana,solo_redes,5.0,9,0,0.558,alta
+633,Incy Wincy indumentaria,tienda de ropa,concordia,sin_web,4.3,3,0,0.555,alta
+634,Morena Almacén de Moda,almacen,parana,solo_redes,5.0,1,0,0.544,alta
+635,Punto Fit Tienda Saludable,almacen,parana,solo_redes,5.0,1,0,0.541,alta
+636,Yuba Skateshop,tienda de ropa,parana,sin_web,3.4,15,0,0.539,alta
+637,Casa Bonzi - Almacén Ramos Generales (variado),almacen,concordia,sin_web,4.2,71,0,0.537,alta
+638,ALIADAS BOUTIQUE,tienda de ropa,concordia,solo_redes,5.0,1,0,0.53,alta
+639,Moda Rosa,tienda de ropa,concordia,sin_web,5.0,2,0,0.52,alta
+640,De Amores Y Sabores,almacen,parana,sin_web,,0,0,0.519,alta
+641,Bodegon Miguel Silvio,restaurante,concordia,sin_web,4.3,670,0,0.519,alta
+642,Almacen de Milanesas,almacen,parana,sin_web,5.0,6,0,0.513,alta
+643,Tijuana Resto Bar 🍽🍹🍻,restaurante,concordia,sin_web,3.9,134,0,0.506,alta
+644,Boho chic,tienda de ropa,concordia,sin_web,5.0,1,0,0.504,alta
+645,Madre Tierra Almacen Naturista,almacen,concordia,sin_web,4.5,14,0,0.503,alta
+646,Abalo construcciones,ferreteria,concordia,sin_web,4.0,3,0,0.502,alta
+647,COMERCIAL INDUSTRIAL,ferreteria,concordia,sin_web,5.0,5,0,0.495,alta
+648,SHENNY SHOP,tienda de ropa,parana,sin_web,5.0,2,0,0.494,alta
+649,Listo Calisto,tienda de ropa,parana,sin_web,4.8,8,0,0.492,alta
+650,24.7 MAXITODO,almacen,concordia,sin_web,5.0,1,0,0.485,alta
+651,La Pana Almacen,almacen,parana,sin_web,4.7,3,0,0.472,alta
+652,LA HUELLA ferreteria y mat de construcción,ferreteria,concordia,sin_web,5.0,4,0,0.472,alta
+653,Ferretería Baltazar,ferreteria,concordia,sin_web,5.0,3,0,0.469,alta
+654,"Almacén ""Martín""",almacen,concordia,sin_web,5.0,5,0,0.468,alta
+655,Kiosco almacén Lo de Fabio,almacen,concordia,sin_web,,0,0,0.468,alta
+656,Drugstore Full,almacen,concordia,sin_web,4.8,16,0,0.467,alta
+657,Supermercado Modelo Express,verduleria,concordia,sin_web,3.9,589,0,0.463,alta
+658,Drugstore B,almacen,parana,sin_web,5.0,2,0,0.458,alta
+659,El Almacén de Mario,almacen,parana,sin_web,5.0,10,0,0.457,alta
+660,El Almacén de Granja,almacen,parana,solo_redes,4.3,3,0,0.456,alta
+661,Almacén Arcoiris - Autiservicio,almacen,concordia,sin_web,5.0,1,0,0.453,media
+662,Espacio b.a.,tienda de ropa,parana,sin_web,4.4,22,0,0.451,media
+663,Q'PAPAS,restaurante,parana,sin_web,3.7,75,0,0.441,media
+664,Gimnasio TDC,gimnasio,concordia,sin_web,4.8,5,0,0.435,media
+665,"Almacén para el asado ""Mercado Sud""",almacen,parana,sin_web,5.0,2,0,0.431,media
+666,Jacinto Cocina,restaurante,concordia,solo_redes,4.8,877,0,0.429,media
+667,Akiles Gym,gimnasio,concordia,sin_web,4.8,112,0,0.428,media
+668,MUDRA LOCAL,tienda de ropa,parana,solo_redes,5.0,1,0,0.426,media
+669,Ferreteria Lo de Perez,ferreteria,concordia,sin_web,4.7,9,0,0.424,media
+670,Almacen La familia,almacen,concordia,sin_web,,0,0,0.416,media
+671,Obsesión,tienda de ropa,parana,sin_web,4.2,108,0,0.414,media
+672,Infinito Venta de Ropas,tienda de ropa,parana,sin_web,3.0,7,0,0.414,media
+673,Center Gym,gimnasio,concordia,sin_web,5.0,5,0,0.41,media
+674,Almacén del Maipu,almacen,parana,sin_web,,0,0,0.41,media
+675,Prendas Nos,tienda de ropa,parana,plataforma_terceros,3.5,4,0,0.409,media
+676,Toss,tienda de ropa,concordia,sin_web,4.1,9,0,0.401,media
+677,INVICTUS,tienda de ropa,parana,sin_web,4.5,15,0,0.399,media
+678,Ferretería Urquiza,ferreteria,parana,solo_redes,4.7,103,0,0.397,media
+679,Mega Force Gym Center,gimnasio,parana,solo_redes,4.8,194,0,0.395,media
+680,Nueva Antártida,restaurante,concordia,sin_web,4.3,4,0,0.39,media
+681,ChocoLovePostres,restaurante,parana,solo_redes,5.0,8,0,0.388,media
+682,Mykonos Boutique,tienda de ropa,concordia,sin_web,4.8,5,0,0.387,media
+683,kiosco y almacen amalia,almacen,concordia,sin_web,1.0,1,0,0.386,media
+684,Dr. Juan,veterinaria,concordia,sin_web,5.0,3,0,0.385,media
+685,Almacen LUCIA,almacen,concordia,sin_web,4.3,29,0,0.384,media
+686,El Barcito,restaurante,concordia,sin_web,3.4,12,0,0.378,media
+687,Ferreteria Norte,ferreteria,concordia,sin_web,4.3,3,0,0.378,media
+688,O.S.E.C.A.C. Farmacia,farmacia,parana,sin_web,4.2,5,0,0.377,media
+689,HolisticFit Gimnasio,gimnasio,concordia,sin_web,5.0,2,0,0.375,media
+690,Drusgtore barba negra,almacen,concordia,sin_web,5.0,1,0,0.375,media
+691,Muy Rico Artesanal,restaurante,concordia,sin_web,3.6,14,0,0.371,media
+692,"Reino Animal Veterinaria - Concordia, Entre Rios",veterinaria,concordia,sin_web,5.0,3,0,0.371,media
+693,Walquiria ShowRoom,tienda de ropa,concordia,sin_web,4.7,26,0,0.37,media
+694,SERVICIO AUTOMOTOR DE ARIEL AYALA,taller mecanico,concordia,sin_web,4.8,6,0,0.362,media
+695,VSK Cross,gimnasio,concordia,solo_redes,5.0,3,0,0.358,media
+696,Gimnasio PlayFit,gimnasio,parana,sin_web,4.9,123,0,0.345,media
+697,L. M La Moda,tienda de ropa,parana,sin_web,,0,0,0.343,media
+698,Veterinaria,veterinaria,concordia,sin_web,5.0,5,0,0.34,media
+699,Richmond,restaurante,concordia,solo_redes,4.1,375,0,0.337,media
+700,"Almacen ""Los Mellis""",almacen,concordia,sin_web,4.1,15,0,0.336,media
+701,Supermercado Modelo Express xp5,verduleria,concordia,sin_web,3.9,496,0,0.334,media
+702,Taller Mecánico Caraballo – Mecánica y Electricidad Automotriz,taller mecanico,concordia,sin_web,5.0,9,0,0.333,media
+703,Mimbá Clinica Veterinaria,veterinaria,parana,sin_web,3.9,9,0,0.331,media
+704,Servicio Mecánico Ferrari e Hijo,taller mecanico,concordia,sin_web,4.8,9,0,0.33,media
+705,Complejo El Predio,gimnasio,concordia,sin_web,4.4,109,0,0.326,media
+706,Parrilla - Restaurant Campo Alto,restaurante,concordia,sin_web,4.7,3,0,0.325,media
+707,"Corralón y ferretería ""Goro""",ferreteria,concordia,sin_web,4.8,5,0,0.325,media
+708,Gimnasio Sede centro sport fitness,gimnasio,parana,sin_web,5.0,8,0,0.324,media
+709,FARMACIA,farmacia,concordia,sin_web,,0,0,0.323,media
+710,Claudia Blanco Peluquería y Salón De Belleza,peluqueria,concordia,solo_redes,5.0,9,0,0.323,media
+711,La Pituca,tienda de ropa,parana,sin_web,3.9,16,0,0.32,media
+712,Más ferreteria,ferreteria,parana,sin_web,4.5,6,0,0.319,media
+713,Supermercados Modelo,carniceria,concordia,sin_web,3.9,550,0,0.312,media
+714,Cardozo,veterinaria,concordia,sin_web,5.0,1,0,0.312,media
+715,Gimnasio Fuerza en Potencia,gimnasio,concordia,solo_redes,5.0,7,0,0.31,media
+716,Almacén san cayetano,almacen,parana,sin_web,4.7,37,0,0.308,media
+717,Ferretería Martinez,ferreteria,parana,sin_web,4.9,34,0,0.306,media
+718,GIMNASIO ACROPOLIS FITNESS GROUP,gimnasio,concordia,sin_web,5.0,7,0,0.304,media
+719,Lo De Nacho Panchos Y Hamburguesas,restaurante,concordia,sin_web,4.8,49,0,0.301,media
+720,Marina's,peluqueria,concordia,sin_web,5.0,2,0,0.301,media
+721,La Perla,restaurante,parana,sin_web,3.0,14,0,0.3,media
+722,Peluquería Juan Carlos,peluqueria,concordia,sin_web,5.0,7,0,0.299,media
+723,Keep Moving,gimnasio,parana,sin_web,4.8,8,0,0.299,media
+724,El Almacén,almacen,parana,sin_web,5.0,1,0,0.298,media
+725,FARMACIA Acevedo,farmacia,concordia,sin_web,,0,0,0.295,media
+726,Ferreteria Santa Cruz,ferreteria,concordia,solo_redes,,0,0,0.295,media
+727,Beauty center,peluqueria,concordia,sin_web,4.8,52,0,0.293,media
+728,HÉRCULES | INDUMENTARIA MASCULINA,tienda de ropa,concordia,sin_web,5.0,8,0,0.289,media
+729,100 % ACTITUD,gimnasio,concordia,sin_web,5.0,25,0,0.286,media
+730,Almacén lo de Celia,almacen,concordia,sin_web,5.0,1,0,0.286,media
+731,Fran Car Mecanica & Inyección electrónica,taller mecanico,concordia,solo_redes,4.7,3,0,0.282,media
+732,Life Indumentaria,tienda de ropa,parana,solo_redes,5.0,4,0,0.28,media
+733,JENZO DISTRIBUCIÓNES,almacen,parana,sin_web,,0,0,0.279,media
+734,Dr. Williman,veterinaria,concordia,sin_web,5.0,2,0,0.272,media
+735,Fequim,almacen,concordia,sin_web,5.0,1,0,0.269,media
+736,ALICIA -Peluquería Unisex,peluqueria,concordia,solo_redes,,0,0,0.268,media
+737,Saurona Almacén Natural,almacen,parana,sin_web,4.6,9,0,0.268,media
+738,Mecánica en General Juan Latrille,taller mecanico,concordia,sin_web,4.6,5,0,0.268,media
+739,Ferretería vendettuti 2,ferreteria,parana,sin_web,4.5,2,0,0.268,media
+740,Lo de jota,almacen,parana,sin_web,5.0,3,0,0.267,media
+741,Gimnasio Fitness Belen Labriola,gimnasio,concordia,sin_web,5.0,3,0,0.266,media
+742,Concordia Veterinaria,veterinaria,concordia,sin_web,4.5,2,0,0.266,media
+743,Kallpa Entrenamientos,gimnasio,concordia,sin_web,5.0,3,0,0.266,media
+744,Bulonera Diamante,ferreteria,concordia,sin_web,4.7,30,0,0.263,media
+745,La cuervita - Almacén de frutas y verduras,almacen,parana,sin_web,5.0,5,0,0.262,media
+746,Almacén Los Pinos,almacen,parana,sin_web,4.6,5,0,0.261,media
+747,Farfalla ropa y accesorios,tienda de ropa,concordia,sin_web,,0,0,0.26,media
+748,Dr. Alejandra | Veterinaria de pequeños animales,veterinaria,concordia,solo_redes,4.8,5,0,0.259,media
+749,FIT MILANO,gimnasio,parana,solo_redes,5.0,4,0,0.258,media
+750,Xtreme Gim Body Systems Center,gimnasio,parana,sin_web,4.6,88,0,0.257,media
+751,Taller mecánico CENTRO MECÁNICA Mecánica Automotriz en Concordia,taller mecanico,concordia,sin_web,4.8,5,0,0.256,media
+752,SCORPIONS,tienda de ropa,concordia,sin_web,4.0,5,0,0.255,media
+753,EFECTO MARIPOSA,tienda de ropa,concordia,plataforma_terceros,5.0,1,0,0.255,media
+754,Como en casa.rotiseria,restaurante,concordia,sin_web,5.0,1,0,0.253,media
+755,NeoClubXL,gimnasio,parana,solo_redes,4.7,103,0,0.252,media
+756,Almacén 'la sol',almacen,parana,sin_web,,0,0,0.251,media
+757,El Almacen De Jose,almacen,concordia,sin_web,4.0,6,0,0.25,media
+758,CONSULVET,veterinaria,concordia,sin_web,5.0,1,0,0.247,media
+759,Ferreteria,ferreteria,concordia,sin_web,5.0,1,0,0.245,media
+760,CERES,tienda de ropa,concordia,sin_web,5.0,2,0,0.244,media
+761,Ferreteria,ferreteria,concordia,sin_web,4.3,104,0,0.242,media
+762,Supercan,veterinaria,concordia,sin_web,4.1,9,0,0.242,media
+763,Mecánica Bruno,taller mecanico,concordia,sin_web,4.4,7,0,0.242,media
+764,Margarita,tienda de ropa,concordia,sin_web,5.0,1,0,0.24,media
+765,El Almacén,almacen,parana,sin_web,4.8,16,0,0.239,media
+766,Ito,almacen,concordia,sin_web,,0,0,0.238,media
+767,Clinica Veterinaria Puerto Dr. Julio L. Benitez Basaldua,veterinaria,parana,sin_web,4.6,5,0,0.238,media
+768,Gimnasio SC,gimnasio,parana,sin_web,5.0,3,0,0.238,media
+769,El Puesto Servicios Hidráulicos,veterinaria,concordia,sin_web,,0,0,0.237,media
+770,Sanidad Veterinaria Municipal,veterinaria,parana,sin_web,4.2,73,0,0.236,media
+771,Ferreteria Carlitos,ferreteria,concordia,solo_redes,4.6,9,0,0.235,media
+772,"Ferreteria ""El Angel""",ferreteria,parana,sin_web,4.7,43,0,0.232,media
+773,JCC MECÁNICA TOTAL,taller mecanico,concordia,solo_redes,,0,0,0.23,media
+774,CrossBulls,gimnasio,concordia,sin_web,4.9,62,0,0.228,media
+775,Mana,restaurante,concordia,sin_web,5.0,1,0,0.227,media
+776,Sportfit,gimnasio,parana,sin_web,5.0,7,0,0.227,media
+777,Charuwas,veterinaria,parana,sin_web,5.0,8,0,0.225,media
+778,Los Pedros,restaurante,concordia,sin_web,3.0,2,0,0.225,media
+779,Ferretería Sara Neira,ferreteria,concordia,solo_redes,4.5,2,0,0.221,media
+780,Ferreteria Saavedra,ferreteria,concordia,sin_web,4.1,8,0,0.219,media
+781,Despensa Palma,almacen,parana,sin_web,5.0,9,0,0.217,media
+782,Peluquería Adriana Descamps,peluqueria,parana,solo_redes,5.0,9,0,0.217,media
+783,Salinas S.r.l,ferreteria,parana,sin_web,3.2,5,0,0.216,media
+784,Mi Granjita Almacen General,almacen,parana,sin_web,5.0,1,0,0.213,media
+785,Leffler,ferreteria,concordia,sin_web,,0,0,0.211,media
+786,JB training,gimnasio,concordia,sin_web,5.0,9,0,0.21,media
+787,Fitness Club California,gimnasio,parana,solo_redes,4.9,48,0,0.21,media
+788,PANADERIA LA ENTRERRIANA,panaderia,concordia,sin_web,3.8,67,0,0.209,media
+789,Heidenreich mecánica,taller mecanico,concordia,solo_redes,5.0,1,0,0.206,media
+790,Mecanica Integral Mauricio Ffarrher,taller mecanico,parana,sin_web,5.0,8,0,0.204,media
+791,CED Olimpia (Centro de entrenamiento deportivo),gimnasio,parana,sin_web,5.0,1,0,0.203,media
+792,Bunker Fit,gimnasio,concordia,solo_redes,4.9,37,0,0.202,media
+793,Dubai gym Paraná,gimnasio,parana,sin_web,4.7,98,0,0.201,media
+794,Vida,tienda de ropa,parana,sin_web,4.5,2,0,0.199,media
+795,Ferreteria San Jose,ferreteria,parana,solo_redes,4.9,18,0,0.198,media
+796,Innova Peluqueria unisex,peluqueria,parana,sin_web,5.0,5,0,0.198,media
+797,Dallas Club,restaurante,parana,solo_redes,4.1,199,0,0.198,media
+798,"Virtuosas, Peluqueria y Belleza",peluqueria,concordia,sin_web,4.0,4,0,0.196,media
+799,Gimnasio Argentino,gimnasio,concordia,solo_redes,5.0,2,0,0.192,media
+800,Fast Food SYRAH,restaurante,parana,sin_web,3.0,14,0,0.191,media
+801,Peluquería Marcelo,peluqueria,concordia,sin_web,4.8,44,0,0.191,media
+802,Mascotitas Concordia,veterinaria,concordia,sin_web,4.2,21,0,0.189,media
+803,Miscelánea Parrilla & Bodegón,restaurante,concordia,sin_web,5.0,2,0,0.189,media
+804,Taller Mecanico CDS,taller mecanico,parana,sin_web,5.0,9,0,0.188,media
+805,Almacén Punto Encuentro,almacen,parana,sin_web,5.0,1,0,0.185,media
+806,Gimnasio Move - Funcional & Fitness,gimnasio,parana,solo_redes,4.8,6,0,0.185,media
+807,Jardin De Campo Almacen,almacen,parana,sin_web,4.5,2,0,0.183,media
+808,DIETETICA FULL AR EXPRESS,almacen,parana,sin_web,4.7,3,0,0.182,media
+809,Ferreteria y Bulonería 3g,ferreteria,parana,sin_web,,0,0,0.181,media
+810,Ferretería Puerto,ferreteria,parana,sin_web,5.0,1,0,0.181,media
+811,Taller Diego,taller mecanico,concordia,sin_web,4.8,9,0,0.177,media
+812,F y F almacén,almacen,parana,sin_web,5.0,2,0,0.176,media
+813,ALMACEN SANJUAN,almacen,parana,sin_web,4.8,5,0,0.176,media
+814,GPS Taller - Mecanica Magfer,taller mecanico,concordia,sin_web,4.9,9,0,0.175,media
+815,Salon Mary,peluqueria,concordia,sin_web,5.0,3,0,0.175,media
+816,CAFGYMCONCORDIA,gimnasio,concordia,solo_redes,5.0,1,0,0.174,media
+817,Drugstore Black,almacen,concordia,sin_web,5.0,1,0,0.174,media
+818,Almacén los 3 Vasquitos,almacen,parana,sin_web,5.0,2,0,0.174,media
+819,Peluquería Fabián Grigolatto,peluqueria,concordia,sin_web,4.7,56,0,0.173,media
+820,Almacén La morocha,almacen,concordia,sin_web,4.3,3,0,0.172,media
+821,Efe Barberia y Frida peluquería femenina,peluqueria,parana,sin_web,5.0,8,0,0.171,media
+822,Femme Peluquería,peluqueria,concordia,sin_web,5.0,1,0,0.171,media
+823,CAMPOS PELUQUERÍA 💈,peluqueria,parana,sin_web,5.0,3,0,0.171,media
+824,Los pollos hermanos,carniceria,concordia,sin_web,5.0,1,0,0.171,media
+825,Gimnasio Fitness Live Club,gimnasio,parana,sin_web,,0,0,0.17,media
+826,Peluquería MG,peluqueria,concordia,sin_web,5.0,3,0,0.166,media
+827,Peluquería Brush,peluqueria,concordia,sin_web,5.0,3,0,0.166,media
+828,Gusnaik,restaurante,concordia,sin_web,5.0,1,0,0.164,media
+829,Sevicio Mecanico multiarcas AFR,taller mecanico,concordia,sin_web,4.4,9,0,0.164,media
+830,Panaderia Y Confitería Dulce Compañía,panaderia,parana,sin_web,4.9,7,0,0.163,media
+831,Taller Mecatronica,taller mecanico,concordia,sin_web,3.9,27,0,0.162,media
+832,Combo,restaurante,concordia,sin_web,,0,0,0.16,media
+833,Peluqueria Mundo Capilar,peluqueria,parana,solo_redes,5.0,5,0,0.159,media
+834,Ferretería Roca,ferreteria,concordia,sin_web,5.0,3,0,0.158,media
+835,Dulces de la Abuela,panaderia,concordia,sin_web,5.0,5,0,0.154,media
+836,Guillermina Walingre Estilista,peluqueria,concordia,solo_redes,5.0,36,0,0.153,media
+837,MECATRÓNICA.2,taller mecanico,concordia,sin_web,,0,0,0.152,baja
+838,"Almacén ""Perú""",almacen,parana,sin_web,,0,0,0.151,baja
+839,Forrajeria La Esquina,ferreteria,concordia,sin_web,4.5,22,0,0.15,baja
+840,Vyk mecánica automotor,taller mecanico,parana,sin_web,5.0,6,0,0.149,baja
+841,Mecánica integral el galpón,taller mecanico,concordia,sin_web,5.0,1,0,0.149,baja
+842,Mecanica y Electronica Radegond,taller mecanico,concordia,sin_web,4.2,9,0,0.149,baja
+843,Almacen San Miguel,almacen,parana,sin_web,,0,0,0.148,baja
+844,Kiosco Almacen Cristián,almacen,concordia,sin_web,5.0,1,0,0.147,baja
+845,Forza Centro De Entrenamiento,gimnasio,parana,sin_web,5.0,5,0,0.147,baja
+846,Peluquería Marcelino Denis,peluqueria,concordia,sin_web,5.0,1,0,0.147,baja
+847,DON MARINO (Peluquería - Barbería),peluqueria,concordia,sin_web,4.8,36,0,0.145,baja
+848,Fitness Gym,gimnasio,concordia,solo_redes,5.0,13,0,0.145,baja
+849,Ferreteria Río Paraná,ferreteria,parana,sin_web,5.0,1,0,0.144,baja
+850,Gimnasio Troya,gimnasio,concordia,solo_redes,5.0,1,0,0.143,baja
+851,Panaderia El Reino,panaderia,concordia,solo_redes,5.0,2,0,0.143,baja
+852,La Esquina,restaurante,parana,sin_web,,0,0,0.142,baja
+853,GPS Taller - Mecanica Especializada Viviani,taller mecanico,concordia,sin_web,3.8,11,0,0.142,baja
+854,PQ Peluquería,peluqueria,concordia,sin_web,4.8,5,0,0.141,baja
+855,Don Dante peluquería,peluqueria,parana,sin_web,5.0,3,0,0.139,baja
+856,Mr Black peluquería,peluqueria,concordia,sin_web,5.0,2,0,0.138,baja
+857,Elaboración lym,panaderia,concordia,sin_web,,0,0,0.137,baja
+858,"GIMNASIO ""ENTRENARTE""",gimnasio,concordia,sin_web,4.8,24,0,0.137,baja
+859,NICKYMARKET 2,almacen,parana,sin_web,4.0,4,0,0.136,baja
+860,Veterinaria Rebot,veterinaria,concordia,sin_web,4.5,10,0,0.134,baja
+861,New Training Paraná,gimnasio,parana,sin_web,4.3,6,0,0.133,baja
+862,"LOS GIRASOLES. Panadería, confitería y sandwicheria",panaderia,parana,sin_web,4.2,228,0,0.133,baja
+863,Barber club 97,peluqueria,concordia,solo_redes,,0,0,0.133,baja
+864,Treino Gym,gimnasio,concordia,sin_web,4.7,14,0,0.133,baja
+865,Servicar,taller mecanico,concordia,sin_web,5.0,2,0,0.132,baja
+866,Michaels,peluqueria,parana,sin_web,4.8,71,0,0.132,baja
+867,ALMACÉN EL ABASTO,almacen,concordia,sin_web,,0,0,0.131,baja
+868,Blondie hair peluquería,peluqueria,parana,sin_web,4.8,5,0,0.131,baja
+869,Marianela Caputo Estilista,peluqueria,concordia,solo_redes,5.0,2,0,0.131,baja
+870,GIULAL REPUESTOS /MECÁNICA ALVAREZ,taller mecanico,concordia,sin_web,4.8,4,0,0.131,baja
+871,Punto Service,taller mecanico,parana,sin_web,5.0,6,0,0.13,baja
+872,Pet´s House,veterinaria,parana,sin_web,5.0,1,0,0.129,baja
+873,Gimnasio Metatron,gimnasio,parana,sin_web,4.5,26,0,0.127,baja
+874,Dynamia,gimnasio,parana,solo_redes,,0,0,0.125,baja
+875,Un limón medio melón,verduleria,concordia,solo_redes,5.0,4,0,0.125,baja
+876,Hotel Circulo Suboficiales,restaurante,parana,sin_web,4.3,32,0,0.125,baja
+877,Ferreteria la Nueva,ferreteria,parana,sin_web,4.1,15,0,0.124,baja
+878,Postres Ellena,restaurante,parana,sin_web,5.0,34,0,0.124,baja
+879,Gimnasio Gym Force,gimnasio,concordia,sin_web,4.9,9,0,0.123,baja
+880,FALUCHO Veterinaria,veterinaria,parana,sin_web,5.0,7,0,0.123,baja
+881,Panaderia mis niñas,panaderia,concordia,sin_web,4.9,9,0,0.12,baja
+882,Perro Negro Club,gimnasio,concordia,solo_redes,5.0,3,0,0.119,baja
+883,Verdulería La Familia,verduleria,concordia,sin_web,5.0,2,0,0.118,baja
+884,Almacen De Campo,almacen,parana,sin_web,2.5,2,0,0.117,baja
+885,Nuestro Almacén,almacen,parana,sin_web,5.0,1,0,0.116,baja
+886,Shalom Peluqueria & Estetica,peluqueria,concordia,sin_web,,0,0,0.115,baja
+887,Bélen Panadería,panaderia,parana,sin_web,4.7,733,0,0.115,baja
+888,Panificación Crespo,panaderia,parana,solo_redes,4.6,625,0,0.113,baja
+889,Gimnasio sport fitness Paraná sede América,gimnasio,parana,sin_web,5.0,1,0,0.111,baja
+890,Ferreteria LU_MAT,ferreteria,concordia,sin_web,4.6,18,0,0.11,baja
+891,"Oxido, Sala de Entrenamiento",gimnasio,concordia,sin_web,4.9,16,0,0.109,baja
+892,Peluquería,peluqueria,concordia,sin_web,4.7,56,0,0.108,baja
+893,Mecánica Wolf,taller mecanico,parana,sin_web,,0,0,0.108,baja
+894,Almacén,almacen,concordia,sin_web,,0,0,0.108,baja
+895,Men & Women,peluqueria,concordia,sin_web,4.8,12,0,0.107,baja
+896,supermercado Bermani,verduleria,concordia,sin_web,4.4,128,0,0.107,baja
+897,Verduleria DANIEL,verduleria,parana,sin_web,4.3,356,0,0.107,baja
+898,REBEL HOUSE GIMNASIO,gimnasio,parana,sin_web,5.0,1,0,0.105,baja
+899,Más Salud,verduleria,parana,solo_redes,5.0,6,0,0.102,baja
+900,La Baguette,panaderia,parana,sin_web,4.1,132,0,0.101,baja
+901,El gran papero,verduleria,concordia,sin_web,,0,0,0.1,baja
+902,"Un limón, medio melón (sucursal)",verduleria,concordia,solo_redes,5.0,4,0,0.1,baja
+903,Olympus gym,gimnasio,parana,solo_redes,5.0,2,0,0.099,baja
+904,Panadería La Exclusiva - Elaboración propia,panaderia,concordia,sin_web,5.0,3,0,0.099,baja
+905,"Mecánica ""San Antonio""",taller mecanico,concordia,sin_web,5.0,1,0,0.099,baja
+906,Azafrán,verduleria,concordia,sin_web,5.0,3,0,0.099,baja
+907,LucaModa,almacen,parana,sin_web,5.0,1,0,0.096,baja
+908,KIKO PELUQUERÍA,peluqueria,concordia,sin_web,4.9,9,0,0.096,baja
+909,GPS Taller - Mecanica Lezcano,taller mecanico,parana,sin_web,5.0,3,0,0.096,baja
+910,Despensa Mi Familia,almacen,parana,sin_web,5.0,1,0,0.095,baja
+911,"CACAO Y VAINILLA, PANADERIA Y CAFETERIA",panaderia,concordia,sin_web,4.7,77,0,0.094,baja
+912,CARNICERIA VALENTIN,carniceria,concordia,sin_web,4.8,6,0,0.094,baja
+913,Mecánica Manu Milera,taller mecanico,concordia,sin_web,4.0,5,0,0.094,baja
+914,Frescura Natural,verduleria,parana,solo_redes,5.0,3,0,0.093,baja
+915,Verduleria EL HARAGÁN,verduleria,parana,sin_web,4.3,122,0,0.093,baja
+916,Gimnasio Atenas,gimnasio,parana,sin_web,4.7,55,0,0.09,baja
+917,Speed Car,taller mecanico,parana,sin_web,5.0,3,0,0.09,baja
+918,Ferretería Avenida,ferreteria,parana,sin_web,4.0,23,0,0.087,baja
+919,RPM MECÁNICA,taller mecanico,parana,sin_web,5.0,1,0,0.087,baja
+920,Frutería Y Verdulería,verduleria,concordia,sin_web,5.0,1,0,0.087,baja
+921,Peluquería Celina Estilista,peluqueria,parana,sin_web,5.0,2,0,0.087,baja
+922,Ferreteria Fercorfil,ferreteria,concordia,solo_redes,,0,0,0.086,baja
+923,Mecánica el Momas,taller mecanico,concordia,sin_web,,0,0,0.086,baja
+924,Carnicería La Hacienda,carniceria,concordia,sin_web,4.5,90,0,0.085,baja
+925,Vasco's Barber Shop & Peluqueria,peluqueria,concordia,sin_web,4.8,25,0,0.084,baja
+926,Carnicería La Chacra,carniceria,concordia,sin_web,5.0,7,0,0.084,baja
+927,Veterinaria Tymba,veterinaria,concordia,solo_redes,4.1,22,0,0.084,baja
+928,Lu Pastelería,panaderia,concordia,plataforma_terceros,5.0,8,0,0.083,baja
+929,El Molino,panaderia,concordia,sin_web,4.6,45,0,0.083,baja
+930,DONELLA panadería y pastelería,panaderia,concordia,sin_web,,0,0,0.083,baja
+931,Mecánica del automotor Miraglio,taller mecanico,parana,sin_web,5.0,1,0,0.081,baja
+932,Living gimnasio,gimnasio,concordia,sin_web,4.7,3,0,0.081,baja
+933,Juanchi Materiales Electricos,ferreteria,concordia,sin_web,,0,0,0.08,baja
+934,LOS GRINGOS,verduleria,concordia,sin_web,4.3,7,0,0.08,baja
+935,Carnyco,carniceria,parana,sin_web,4.7,72,0,0.08,baja
+936,Natura Pan 2,panaderia,parana,solo_redes,,0,0,0.08,baja
+937,La Bodega,verduleria,concordia,sin_web,4.5,6,0,0.08,baja
+938,"Mecánica ""LF""",taller mecanico,parana,sin_web,3.7,6,0,0.079,baja
+939,PUNTO FELINO,veterinaria,parana,sin_web,5.0,3,0,0.078,baja
+940,Kangoo Gym Concordia,gimnasio,concordia,sin_web,5.0,2,0,0.077,baja
+941,Panaderia El Molino,panaderia,concordia,sin_web,4.6,53,0,0.076,baja
+942,Redline Fitness Gym,gimnasio,concordia,sin_web,4.8,6,0,0.076,baja
+943,Mad Peluqueria,peluqueria,concordia,sin_web,3.3,6,0,0.076,baja
+944,"Verduleria ""El natu""",verduleria,parana,sin_web,,0,0,0.076,baja
+945,Ferreteria Chacra 12,ferreteria,concordia,sin_web,3.9,7,0,0.075,baja
+946,LUZ SHOP,ferreteria,concordia,sin_web,5.0,1,0,0.074,baja
+947,Mecánica GCM,taller mecanico,parana,sin_web,5.0,7,0,0.073,baja
+948,Panaderia La Yuca,panaderia,concordia,solo_redes,4.8,4,0,0.073,baja
+949,MASS GIMNASIO,gimnasio,concordia,sin_web,,0,0,0.072,baja
+950,Gimnasio Nexo,gimnasio,parana,solo_redes,5.0,6,0,0.072,baja
+951,Panpalmate panadería,panaderia,concordia,sin_web,5.0,2,0,0.072,baja
+952,Reina Batata Verduleria,verduleria,concordia,sin_web,5.0,2,0,0.072,baja
+953,Torque’s mecanica,taller mecanico,concordia,solo_redes,,0,0,0.07,baja
+954,Verduleria y Frutería ZONA VERDE,verduleria,concordia,sin_web,4.3,8,0,0.069,baja
+955,Panadería La Perla Confitería,panaderia,parana,sin_web,4.0,149,0,0.068,baja
+956,Peluquería Fernandez,peluqueria,parana,sin_web,4.5,24,0,0.068,baja
+957,Panadería Sabores,panaderia,parana,sin_web,4.7,253,0,0.067,baja
+958,Estancia la Rosa Carnes,carniceria,concordia,sin_web,5.0,4,0,0.067,baja
+959,La Nueva Real,carniceria,concordia,sin_web,5.0,7,0,0.067,baja
+960,Verdulería Colón,verduleria,parana,sin_web,4.3,4,0,0.067,baja
+961,El Flaco,verduleria,concordia,sin_web,5.0,3,0,0.066,baja
+962,Dr W Veterinaria,veterinaria,concordia,sin_web,3.3,3,0,0.066,baja
+963,Panadería Dieguito,panaderia,concordia,sin_web,5.0,1,0,0.065,baja
+964,Taller en Paraná,taller mecanico,parana,sin_web,4.3,4,0,0.065,baja
+965,Punto Verde,verduleria,concordia,sin_web,4.4,51,0,0.064,baja
+966,Veterinaria Etienot,veterinaria,parana,sin_web,5.0,1,0,0.064,baja
+967,Peluquería Klassico,peluqueria,concordia,sin_web,4.3,3,0,0.064,baja
+968,Verdulería La Esmeralda,verduleria,parana,sin_web,4.6,49,0,0.063,baja
+969,Taller mecánico ( el uruguayo),taller mecanico,concordia,sin_web,,0,0,0.063,baja
+970,Panaderia La Nona Confitería,panaderia,parana,sin_web,4.1,20,0,0.062,baja
+971,Lo de Guille Carnes,carniceria,concordia,sin_web,5.0,3,0,0.061,baja
+972,FERRETERIA Los Amigos,ferreteria,concordia,sin_web,,0,0,0.061,baja
+973,EL CONDOR,verduleria,concordia,sin_web,4.2,74,0,0.061,baja
+974,Mecanica El León,taller mecanico,parana,sin_web,3.9,7,0,0.06,baja
+975,Fit Factory,gimnasio,parana,sin_web,4.7,15,0,0.06,baja
+976,La Carnicería,carniceria,concordia,sin_web,5.0,4,0,0.06,baja
+977,La pana,panaderia,parana,sin_web,5.0,14,0,0.06,baja
+978,Mecanica J.R.C.,taller mecanico,parana,sin_web,4.7,7,0,0.059,baja
+979,"Adv taller mecánico y motomecanica, gomeria",taller mecanico,parana,sin_web,5.0,5,0,0.059,baja
+980,Kiosco y verdulería D’todito,verduleria,parana,sin_web,5.0,2,0,0.058,baja
+981,La Tentación Panadería & Pastelería,panaderia,parana,sin_web,5.0,1,0,0.057,baja
+982,Peluqueria Natalia Davanzo,peluqueria,concordia,sin_web,5.0,1,0,0.057,baja
+983,ByB - Training Center,gimnasio,parana,sin_web,4.8,5,0,0.056,baja
+984,Centro De Peluqueros Y Peinadores De Concordia,peluqueria,concordia,sin_web,5.0,5,0,0.056,baja
+985,Vital Carniceria,carniceria,parana,solo_redes,4.6,8,0,0.055,baja
+986,Panadería Roma,panaderia,parana,sin_web,4.6,45,0,0.055,baja
+987,Roux Salón De Peluquería Inspiración,peluqueria,parana,sin_web,4.5,8,0,0.055,baja
+988,"Taller mecánico ""CANBAU""",taller mecanico,concordia,sin_web,4.9,19,0,0.055,baja
+989,Verduleria El Santafesino II,verduleria,parana,sin_web,4.2,83,0,0.054,baja
+990,"Taller Mecánico ""El Meyi""",taller mecanico,parana,sin_web,4.9,7,0,0.054,baja
+991,Ros Mar,panaderia,parana,sin_web,3.8,13,0,0.054,baja
+992,Peluquería Sú,peluqueria,parana,sin_web,4.8,6,0,0.053,baja
+993,Carniceria Impar Despensa,carniceria,parana,sin_web,5.0,7,0,0.053,baja
+994,Peluqueria Leo,peluqueria,concordia,sin_web,5.0,2,0,0.052,baja
+995,Bermani,verduleria,concordia,sin_web,5.0,1,0,0.052,baja
+996,Carniceria San Cayetano,carniceria,concordia,sin_web,4.8,5,0,0.052,baja
+997,Verduleria,verduleria,parana,sin_web,4.7,103,0,0.05,baja
+998,Balance Center Gym,gimnasio,concordia,sin_web,,0,0,0.05,baja
+999,MECÁNICA RONDEAU,taller mecanico,parana,sin_web,5.0,3,0,0.05,baja
+1000,Panificacion Española (Sucursal Tavella),panaderia,concordia,sin_web,4.2,47,0,0.049,baja
+1001,Carnicerias Vital,carniceria,parana,solo_redes,4.4,7,0,0.049,baja
+1002,Panificación Itatí,panaderia,concordia,sin_web,4.7,93,0,0.049,baja
+1003,Carniceria Y Polleria La Esperanza,carniceria,parana,sin_web,5.0,5,0,0.049,baja
+1004,Jpentrenamiento,gimnasio,concordia,sin_web,5.0,1,0,0.047,baja
+1005,Panadería La Soñada,panaderia,concordia,sin_web,4.6,88,0,0.047,baja
+1006,ATP Gym,gimnasio,concordia,sin_web,5.0,1,0,0.047,baja
+1007,Verdulería Doña Luisa,verduleria,concordia,solo_redes,,0,0,0.047,baja
+1008,Panadería El Buen Sabor,panaderia,concordia,sin_web,4.4,17,0,0.044,baja
+1009,Hardfitgym,gimnasio,parana,sin_web,4.4,7,0,0.043,baja
+1010,Taller mecánico vallejos,taller mecanico,concordia,solo_redes,,0,0,0.042,baja
+1011,Taller mecánico Tisocco,taller mecanico,concordia,sin_web,5.0,2,0,0.041,baja
+1012,Regenerar.vet,veterinaria,concordia,sin_web,,0,0,0.041,baja
+1013,Panaderia Dos Molinos,panaderia,parana,sin_web,4.4,93,0,0.04,baja
+1014,WARRIOR FITNESS CENTER,gimnasio,parana,sin_web,5.0,3,0,0.04,baja
+1015,Panadería Don Esteban,panaderia,concordia,sin_web,4.8,16,0,0.04,baja
+1016,Carnicería Oscar Alarcón,carniceria,parana,sin_web,5.0,2,0,0.04,baja
+1017,El Minisúper,verduleria,concordia,sin_web,,0,0,0.04,baja
+1018,Carniceria BIANCA,carniceria,parana,sin_web,5.0,1,0,0.039,baja
+1019,La Buenos Aires,panaderia,parana,sin_web,3.6,14,0,0.038,baja
+1020,Mecánica integral EvoRepro,taller mecanico,concordia,sin_web,5.0,1,0,0.037,baja
+1021,Taller Mecanico,taller mecanico,parana,sin_web,4.8,38,0,0.037,baja
+1022,Carniceria La Preferida,carniceria,parana,sin_web,4.4,7,0,0.037,baja
+1023,Pupatto Mecanica,taller mecanico,parana,sin_web,5.0,8,0,0.037,baja
+1024,Taller Mecánico 5 Estrellas,taller mecanico,parana,sin_web,5.0,3,0,0.037,baja
+1025,Verduleria DON ATILIO,verduleria,parana,sin_web,4.7,273,0,0.037,baja
+1026,Carnicería Mercado de Carnes Airaldi,carniceria,concordia,solo_redes,5.0,3,0,0.036,baja
+1027,CARNICERÍA La Milagrosa,carniceria,parana,sin_web,4.7,68,0,0.036,baja
+1028,Siempre Bella. Peluquería,peluqueria,concordia,sin_web,,0,0,0.036,baja
+1029,Verdulería y frutería MaNa,verduleria,parana,sin_web,5.0,1,0,0.036,baja
+1030,Carniceria Ahorro del Dia,carniceria,concordia,sin_web,4.0,6,0,0.036,baja
+1031,"Verdulería ""Juanchi""",verduleria,parana,solo_redes,3.0,4,0,0.036,baja
+1032,Veterinaria La Tranquera,veterinaria,concordia,sin_web,,0,0,0.035,baja
+1033,La Espiga de Oro - Santiago del Estero,panaderia,parana,sin_web,4.9,7,0,0.035,baja
+1034,Carniceria Don Julio,carniceria,parana,sin_web,4.9,7,0,0.035,baja
+1035,Carniceria Delikatto,carniceria,concordia,solo_redes,,0,0,0.034,baja
+1036,Panaderia Pan Y Pico,panaderia,concordia,sin_web,4.3,8,0,0.034,baja
+1037,Mecánica Centurión,taller mecanico,parana,sin_web,5.0,2,0,0.034,baja
+1038,Verduleria,verduleria,concordia,sin_web,4.7,24,0,0.034,baja
+1039,Frutería y Verduleria Lo de Vicky,verduleria,concordia,sin_web,4.8,20,0,0.034,baja
+1040,Alepam,panaderia,parana,sin_web,3.9,10,0,0.033,baja
+1041,Blanchard Vterinaria,veterinaria,concordia,sin_web,2.3,3,0,0.033,baja
+1042,Verduleria Daniela,verduleria,concordia,sin_web,4.7,15,0,0.033,baja
+1043,Carnicería los chu carniceros de raza,carniceria,concordia,sin_web,4.4,10,0,0.033,baja
+1044,Verduleria coti,verduleria,parana,sin_web,5.0,7,0,0.032,baja
+1045,Estrella de los Mares,carniceria,concordia,sin_web,,0,0,0.032,baja
+1046,Panadería La Internacional,panaderia,parana,sin_web,4.3,27,0,0.032,baja
+1047,Tu Imagen Rosana Rey Peluquería Unisex Indumentaria,peluqueria,parana,sin_web,5.0,5,0,0.031,baja
+1048,Jcarnes,carniceria,concordia,sin_web,,0,0,0.031,baja
+1049,PAN Panadería Artesanal Paraná,panaderia,parana,solo_redes,5.0,44,0,0.031,baja
+1050,Diamante Carnes,carniceria,concordia,sin_web,1.0,1,0,0.03,baja
+1051,Asado,restaurante,parana,sin_web,3.7,3,0,0.03,baja
+1052,Panadería El Sol,panaderia,parana,sin_web,2.8,15,0,0.03,baja
+1053,La parrillla bar,restaurante,concordia,sin_web,,0,0,0.03,baja
+1054,Verdulería los 7 Hermanos,verduleria,parana,sin_web,5.0,3,0,0.03,baja
+1055,"Panadería ""Doña Petrona""",panaderia,parana,sin_web,4.3,29,0,0.029,baja
+1056,PETRONA VERDULERÍA,verduleria,concordia,sin_web,4.8,5,0,0.029,baja
+1057,Panadería La Industrial,panaderia,parana,sin_web,4.6,14,0,0.029,baja
+1058,Verduleria Lo De JOAKO,verduleria,concordia,sin_web,4.0,1,0,0.028,baja
+1059,El Bagual,carniceria,parana,sin_web,4.4,34,0,0.028,baja
+1060,CHG Mecánica,taller mecanico,parana,solo_redes,5.0,7,0,0.028,baja
+1061,Carnicería El Brasero,carniceria,concordia,sin_web,,0,0,0.028,baja
+1062,verduleria y fruteria el progreso,verduleria,parana,sin_web,4.1,97,0,0.028,baja
+1063,Lg Carnes,carniceria,concordia,sin_web,4.9,14,0,0.028,baja
+1064,Fruteria y Verduleria La Esquina,verduleria,concordia,sin_web,5.0,4,0,0.027,baja
+1065,Inti's Panificados,panaderia,concordia,sin_web,4.5,2,0,0.026,baja
+1066,Todo Casero,panaderia,parana,sin_web,3.6,15,0,0.026,baja
+1067,Chipa chipá,panaderia,concordia,sin_web,5.0,6,0,0.026,baja
+1068,LA PANADERIA,panaderia,concordia,sin_web,5.0,3,0,0.025,baja
+1069,"""En La Pera"" Verdulería y Fruteria",verduleria,concordia,solo_redes,,0,0,0.025,baja
+1070,Verdulería Los Benitez,verduleria,parana,sin_web,4.8,5,0,0.025,baja
+1071,"Panaderia ""Sabor Casero""",panaderia,parana,sin_web,3.4,13,0,0.024,baja
+1072,Taller Mecánica Thor,taller mecanico,parana,solo_redes,5.0,2,0,0.023,baja
+1073,Verduleria DA-MI,verduleria,parana,sin_web,3.8,185,0,0.022,baja
+1074,Carniceria 5ta Generacion,carniceria,concordia,sin_web,5.0,6,0,0.022,baja
+1075,Panaderia Ros-Mar,panaderia,parana,sin_web,4.2,13,0,0.021,baja
+1076,"Verduleria y frutería ""El galpon""",verduleria,concordia,solo_redes,,0,0,0.021,baja
+1077,Don Omar Panificados,panaderia,concordia,solo_redes,5.0,1,0,0.021,baja
+1078,verduleria la freesh,verduleria,parana,sin_web,,0,0,0.021,baja
+1079,Verduleria Urdinarrain,verduleria,concordia,sin_web,4.4,48,0,0.021,baja
+1080,Verdulería y frutería los chicos,verduleria,concordia,sin_web,5.0,4,0,0.021,baja
+1081,Carnicería JR,carniceria,concordia,sin_web,5.0,6,0,0.02,baja
+1082,VERDULERIA SANTA RITA Y REPOSTERIA ARTESANAL VALERIA GIMENEZ,verduleria,parana,sin_web,,0,0,0.02,baja
+1083,Overcolli Mecánica Integral,taller mecanico,parana,sin_web,3.7,3,0,0.019,baja
+1084,Panadería la española,panaderia,concordia,sin_web,4.2,14,0,0.019,baja
+1085,Verdulería MYN,verduleria,parana,sin_web,5.0,17,0,0.019,baja
+1086,Verduleria 14 de Abril,verduleria,parana,sin_web,4.8,4,0,0.018,baja
+1087,Carnicerias Fatima,carniceria,parana,sin_web,4.5,34,0,0.018,baja
+1088,Carnicería Lisi,carniceria,parana,sin_web,4.2,22,0,0.017,baja
+1089,KIWI,verduleria,parana,sin_web,5.0,4,0,0.017,baja
+1090,El Flaco Fruteria - Verduleria,verduleria,concordia,sin_web,4.7,3,0,0.016,baja
+1091,verduleria,verduleria,parana,sin_web,5.0,1,0,0.016,baja
+1092,VERDULERIA Y DESPENSA G Y L,verduleria,parana,sin_web,,0,0,0.016,baja
+1093,"Panadería ""LA FRANCISQUITA""",panaderia,concordia,sin_web,4.5,15,0,0.016,baja
+1094,La Milonguita Panadería y Café,panaderia,concordia,sin_web,4.0,2,0,0.016,baja
+1095,"Carniceria ""JR CARNES""",carniceria,concordia,plataforma_terceros,4.0,21,0,0.016,baja
+1096,CARNICERIA EL PIBE Paraná,carniceria,parana,sin_web,5.0,4,0,0.015,baja
+1097,La Mantequita Carnicería Autoservicio,carniceria,concordia,sin_web,4.0,2,0,0.015,baja
+1098,Verduleria Verónica,verduleria,concordia,sin_web,3.3,3,0,0.014,baja
+1099,VERDULERÍA Entre Rios,verduleria,concordia,sin_web,,0,0,0.014,baja
+1100,Carniceria Dailen,carniceria,parana,sin_web,5.0,4,0,0.013,baja
+1101,Burguer's INN-OUT Paraná,restaurante,parana,sin_web,3.0,2,0,0.013,baja
+1102,"Verduleria-Fruteria ""Avenidad""",verduleria,parana,sin_web,5.0,1,0,0.013,baja
+1103,Verdulería Lapiduz,verduleria,concordia,sin_web,5.0,2,0,0.012,baja
+1104,Lo de Ori,verduleria,concordia,sin_web,4.6,5,0,0.012,baja
+1105,verduleria la esquina,verduleria,parana,sin_web,4.5,4,0,0.012,baja
+1106,Verduleria El Solar,verduleria,parana,sin_web,3.5,10,0,0.012,baja
+1107,Verdulería Roberto 2,verduleria,parana,sin_web,5.0,2,0,0.011,baja
+1108,greenpoint verdulería y pollería,verduleria,concordia,sin_web,5.0,3,0,0.011,baja
+1109,Verduleria Matias,verduleria,parana,sin_web,5.0,1,0,0.011,baja
+1110,Carniceria La Gurisa Verduleria,carniceria,parana,sin_web,4.8,4,0,0.01,baja
+1111,VERDULERIA F.B,verduleria,concordia,sin_web,3.0,1,0,0.009,baja
+1112,Verdulería,verduleria,parana,sin_web,,0,0,0.009,baja
+1113,La Esquina - Verdulería,verduleria,concordia,sin_web,5.0,3,0,0.009,baja
+1114,VERDULERIA MOREL,verduleria,concordia,sin_web,,0,0,0.009,baja
+1115,Mecanica MORANDE,taller mecanico,parana,sin_web,4.9,9,0,0.009,baja
+1116,"Verduleria ""La Esperanza""",verduleria,parana,sin_web,,0,0,0.009,baja
+1117,Isabella Frutas Y Verduras,verduleria,parana,sin_web,4.4,5,0,0.008,baja
+1118,Carniceria JR,carniceria,concordia,sin_web,5.0,1,0,0.008,baja
+1119,Taller mecánico wali Miranda,taller mecanico,concordia,sin_web,,0,0,0.008,baja
+1120,Fruteria y Verduleria Jesus,verduleria,parana,sin_web,4.8,4,0,0.008,baja
+1121,Verduleria Y Fruteria Mi Media Naranja,verduleria,parana,sin_web,3.9,7,0,0.007,baja
+1122,Verdulería Los Chicos,verduleria,concordia,sin_web,4.0,1,0,0.007,baja
+1123,Carnicería Los 2 Luis,carniceria,parana,sin_web,,0,0,0.007,baja
+1124,Verduleria Serrano,verduleria,parana,sin_web,,0,0,0.007,baja
+1125,ACHURERIA de Horacio Berdun,carniceria,parana,sin_web,,0,0,0.007,baja
+1126,Le Boutique,verduleria,parana,sin_web,5.0,1,0,0.007,baja
+1127,Verdulería Buen Fruto,verduleria,parana,sin_web,1.7,3,0,0.006,baja
+1128,M & H Granja,carniceria,parana,sin_web,,0,0,0.005,baja
+1129,El Bebe,carniceria,concordia,sin_web,1.0,1,0,0.003,baja

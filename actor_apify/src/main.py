@@ -13,11 +13,13 @@ Flujo:
 from __future__ import annotations
 
 import asyncio
+import json
 
 import pandas as pd
 from apify import Actor
 
 import etl
+import modelo
 
 SCRAPER = "kaix/google-maps-places-scraper"
 
@@ -54,7 +56,9 @@ async def main() -> None:
         final = etl.tabla_final(limpio)
         if validar:
             etl.validar(final)
-        lista = etl.leads(limpio)
+        limpio["prob_web"], metricas = modelo.puntuar(final)
+        lista = modelo.priorizar(etl.leads(limpio))
+        Actor.log.info(f"Modelo: {metricas}")
 
         eda = {
             "filas_crudas": int(len(crudo)),
@@ -65,6 +69,7 @@ async def main() -> None:
             "pct_sin_web_por_rubro": (100 - limpio.groupby("rubro")["tiene_web_propia"].mean() * 100).round(1).to_dict(),
             "leads": int(limpio["es_lead"].sum()),
             "leads_calientes": int(limpio["lead_caliente"].sum()),
+            "modelo": metricas,
         }
 
         store = await Actor.open_key_value_store()
@@ -73,7 +78,8 @@ async def main() -> None:
         await store.set_value("DESCARTES", descartes.drop(columns=["horarios"], errors="ignore").to_csv(index=False),
                               content_type="text/csv")
         await store.set_value("EDA", eda)
-        await Actor.push_data(lista.where(lista.notna(), None).to_dict(orient="records"))
+        await store.set_value("METRICAS_MODELO", metricas)
+        await Actor.push_data(json.loads(lista.to_json(orient="records", force_ascii=False)))
         Actor.log.info(f"Listo: {eda['leads']} leads ({eda['leads_calientes']} calientes) de {eda['filas_limpias']} comercios.")
 
 
