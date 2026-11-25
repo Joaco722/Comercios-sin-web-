@@ -1,4 +1,4 @@
-# apify ya viene en la imagen base apify/actor-python (no reinstalar: rompe crawlee/pydantic)
+apify>=3,<4
 pandas>=2.2
 numpy>=1.26
 scikit-learn>=1.4
